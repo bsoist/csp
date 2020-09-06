@@ -6,7 +6,7 @@
 ***
 
 * [Status Page](https://cs50.statuspage.io/)
-* [Style Guide](https://cs50.readthedocs.io/style/c/)
+* [Style Guide - C](https://cs50.readthedocs.io/style/c/)
 
 ***
 
