@@ -22,6 +22,7 @@ You can also share your workspace with others. Visit [https://cs50.readthedocs.i
 Prints less arcane compiler and Valgrind messages  
 Usage: `help50 ./program command line args` or  
 `help50 valgrind ./program command line args`
+<br/>Also available as a web app (which is harder to use) at [help.cs50.net](https://help.cs50.net/)
 
 #### `debug50`
 
