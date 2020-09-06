@@ -40,7 +40,7 @@ Usage: `check50 cs50/problems/2018/ap/problem_name`
 
 #### `submit50`
 
-Submits a problem for grading
+Submits a problem for grading <br/>
 Usage: `submit50 cs50/problems/2018/ap/problem_name`
 
 ## Documentation
