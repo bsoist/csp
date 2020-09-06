@@ -38,6 +38,11 @@ Usage: `style50 program.c`
 Checks for correctness using test cases  
 Usage: `check50 cs50/problems/2018/ap/problem_name`
 
+#### `submit50`
+
+Submits a problem for grading
+Usage: `submit50 cs50/problems/2018/ap/problem_name`
+
 ## Documentation
 
 <https://cs50.readthedocs.io/>
