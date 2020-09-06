@@ -1,6 +1,6 @@
 # [CSP @ THS]({{ "/" | relative_url }})
 
 Tower Hill School\\
-2019–2020
+2020–2021
 
 Lost? Check Towernet!
