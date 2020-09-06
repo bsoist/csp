@@ -15,7 +15,7 @@ Whether students elect to take no other computer science courses in their lifeti
 
 **Accountability** — If you believe a classmate has fallen short of these expectations, speak to them. If you believe I have fallen short as your teacher, speak to me.
 
-Students are expected to submit all problems! If students would like to receive AP credit they will need to take the [AP CSP Exam](https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam) and complete the [Create and Explore Tasks](https://apcentral.collegeboard.org/pdf/ap-csp-student-task-directions.pdf).
+Students are expected to submit all problems! If students would like to receive AP credit they will need to take the [AP CSP Exam](https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam) and complete the [Create Task](https://apcentral.collegeboard.org/pdf/ap-csp-student-task-directions.pdf).
 
 ## Prerequisites
 
@@ -57,24 +57,23 @@ ISBN 0-321-84268-5
 
 ## Overview
 
-Consistent with the AP Computer Science Principles curriculum framework, the course’s material is organized around seven so-called “big ideas” as well as six computational thinking practices. The seven big ideas are:
-1.	Creativity
-2.	Abstraction
-3.	Data and Information
-4.	Algorithms
-5.	Programming
-6.	The Internet
-7.	Global Impact
-<br>
+Consistent with the AP Computer Science Principles curriculum framework, the course’s material is organized around five so-called “big ideas” as well as six computational thinking practices. The seven big ideas are:
+
+1. Creative Development (CRD)
+2. Data (DAT)
+3. Algorithms and Programming (AAP)
+4. Computing Systems and Networks (CSN)
+5. Impact of Computing (IOC)
+<br/>
 
 And the six computational thinking practices are:
 
-* P1. Connecting Computing
-* P2. Creating Computational Artifacts
-* P3. Abstracting
-* P4. Analyzing Problems and Artifacts
-* P5. Communicating (both orally and in writing)
-* P6. Collaborating
+* P1. Computational Solution Design
+* P2. Algorithms and Program Development
+* P3. Abstraction in Program Development
+* P4. Code Analysis
+* P5. Computing Innovations
+* P6. Responsible Computing
 
 ## Curriculum
 
@@ -100,7 +99,7 @@ Functions. Tools for Debugging. More on Strings. Memory. Pointers. Structs.
 
 ### Chapter 4
 
-Valgrind. More on Structs. Linked Lists. Hash Tables. Trees. Tries.
+More on Structs. Linked Lists. Hash Tables. Trees. Tries.
 
 ### Chapter 5
 
@@ -118,6 +117,7 @@ Flask. MVC. Autocomplete. Events. Ajax. JSON.
 
 Cookies. Sessions. Databases. SQL. Race Conditions.
 
+
 ## AP Modules
 
 ### Understanding Technology
@@ -131,25 +131,6 @@ Collecting Data. Analyzing Data.
 ### Impact of Computing (not covered during class at THS)
 
 The Development Process. Scaling. Models. Simulations. The Digital Divide. Ethics and Legalities of Computing.
-
-## Recommended Order
-
-We present below a recommended ordering of the curriculum and a suggested timetable. These recommendations are based on a 36-week long school year, where students are available for 180 classroom minutes. However, student experience can vary widely; these recommendations are designed to capture an "average" class.
-
-1. Understanding Technology (3 weeks)
-2. Chapter 0 (2 weeks)
-3. Performance Task 1: Explore (2 weeks)
-4. Chapter 1 (4 weeks)
-5. Chapter 2 (3 weeks)
-6. Chapter 3 (4 weeks)
-7. Chapter 4 (2 weeks)
-8. Data Science (1 week)
-9. Chapter 5 (3 weeks)
-10. Chapter 6 (3 weeks)
-11. Chapter 7 (3 weeks)
-12. Chapter 8 (2 weeks)
-13. Performance Task 2: Create (3 weeks)
-12. Impact of Computing (1 week)
 
 ## Academic Honesty
 
