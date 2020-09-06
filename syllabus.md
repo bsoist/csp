@@ -77,8 +77,6 @@ And the six computational thinking practices are:
 
 ## Curriculum
 
-The core curriculum is identical to that of the college. The AP modules include topics that are not covered on campus at Harvard, **or at Tower Hill**, but are essential to the AP Computer Science Principles Curriculum. The AP modules are less programming centric and can be used wherever you see fit.
-
 ## CS50 Core Curriculum
 
 ### Chapter 0
@@ -124,11 +122,11 @@ Cookies. Sessions. Databases. SQL. Race Conditions.
 
 Hardware. The Internet. Multimedia. Security.
 
-### Data Science (not covered during class at THS)
+### Data Science
 
 Collecting Data. Analyzing Data.
 
-### Impact of Computing (not covered during class at THS)
+### Impact of Computing
 
 The Development Process. Scaling. Models. Simulations. The Digital Divide. Ethics and Legalities of Computing.
 
