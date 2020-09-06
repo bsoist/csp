@@ -57,7 +57,7 @@ ISBN 0-321-84268-5
 
 ## Overview
 
-Consistent with the AP Computer Science Principles curriculum framework, the course’s material is organized around five so-called “big ideas” as well as six computational thinking practices. The seven big ideas are:
+Consistent with the AP Computer Science Principles curriculum framework, the course’s material is organized around five so-called “big ideas” as well as six computational thinking practices. The five big ideas are:
 
 1. Creative Development (CRD)
 2. Data (DAT)
