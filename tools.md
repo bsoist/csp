@@ -22,7 +22,7 @@ You can also share your workspace with others. Visit [https://cs50.readthedocs.i
 Prints less arcane compiler and Valgrind messages  
 Usage: `help50 ./program command line args` or  
 `help50 valgrind ./program command line args`
-<br/>Also available as a web app (which is harder to use) at [help.cs50.net](https://help.cs50.net/)
+<br/>Also available as a web app at [help.cs50.net](https://help.cs50.net/)
 
 #### `debug50`
 
@@ -43,6 +43,14 @@ Usage: `check50 cs50/problems/2018/ap/problem_name`
 
 Submits a problem for grading <br/>
 Usage: `submit50 cs50/problems/2018/ap/problem_name`
+<br/>View your submissions at [submit.cs50.io](https://submit.cs50.io/)
+
+#### `render50`
+
+Render your code, with syntax highlighing, as a PDF <br/>
+Usage: `render50 program.c`
+<br/>Also available as a web app at [render.cs50.io](https://render.cs50.io/)
+
 
 ## Documentation
 
