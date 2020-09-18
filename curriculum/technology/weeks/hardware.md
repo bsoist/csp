@@ -28,8 +28,4 @@ youtubeId: WRB6P2vMAao
 + Assignment
     * [Around the House](https://docs.cs50.net/2019/ap/problems/house/house.html)
 
-[//]: # (comments
-Tech Spot https://docs.cs50.net/2019/ap/problems/tech/tech.html
-Everyday Algorithms https://docs.cs50.net/2019/ap/problems/algorithms/algorithms.html
-Me, myself, and UI https://docs.cs50.net/2019/ap/problems/ui/ui.html
-)
+[//]: # (comments Tech Spot https://docs.cs50.net/2019/ap/problems/tech/tech.html Everyday Algorithms https://docs.cs50.net/2019/ap/problems/algorithms/algorithms.html Me, myself, and UI https://docs.cs50.net/2019/ap/problems/ui/ui.html)
