@@ -34,19 +34,5 @@ If you do record a video, upload it to YouTube (unless blocked in your country, 
 
 ## How to Submit
 
-### Step 1 of 2
-
-Submit [this form](https://forms.cs50.io/bb5ace07-099c-405e-8da5-33ce6e242601).
-
-### Step 2 of 2
-
-This step assumes that you've downloaded your Scratch project as a file whose name ends in `.sb3`. And this step also assumes that you've [signed up for a GitHub account](https://github.com/join), per the above form.
-
-1. Visit [this link](https://submit.cs50.io/invites/9770b67479384c4d8c37790779e466d9), log in with your GitHub account, and click **Authorize cs50**.
-1. Check the box indicating that you'd like to grant course staff access to your submissions, and click **Join course**.
-1. Go to [https://submit.cs50.io/upload/cs50/problems/2020/x/scratch](https://submit.cs50.io/upload/cs50/problems/2020/x/scratch).
-1. Click "Choose File" and choose your `.sb3` file. Click **Submit**.
-
-That's it! Once your submission uploads, you should be redirected to your submission page. Click the submission link and then the **check50** link to see which requirements your project met. You are welcome to resubmit as many times as you'd like (before the deadline)!
-
-To view your current progress in the course, visit the course gradebook at [cs50.me/cs50x](https://cs50.me/cs50x)!
+1. Download your Scratch project to your computer.
+1. Upload the file you just downloaded to the TowerNet assignment.
