@@ -106,7 +106,7 @@ There's more than one way to do this, so here's just one!
 
 It's okay to edit your own after seeing this pseudocode here, but don't simply copy/paste ours into your own!
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ## Prompting for Input
 
@@ -132,7 +132,7 @@ SPOILERTAG "Hints" %}
 * Recall that `get_int` is declared in `cs50.h`.
 * Recall that we prompted the user for a positive integer in class via `positive.c`.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ## Building the Opposite
 
@@ -172,7 +172,7 @@ SPOILERTAG "Hints" %}
     }
     ```
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ## Right-Aligning with Dots
 
@@ -195,7 +195,7 @@ SPOILERTAG "Hint" %}
 
 Notice how the number of dots needed on each line is the "opposite" of the number of that line's hashes. For a pyramid of height 8, like the above, the first line has but 1 hash and thus 7 dots. The bottom line, meanwhile, has 8 hashes and thus 0 dots. Via what formula (or arithmetic, really) could you print that many dots?
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ### How to Test Your Code
 
@@ -230,7 +230,7 @@ SPOILERTAG "Hint" %}
 
 A space is just a press of your space bar, just as a period is just a press of its key! Just remember that `printf` requires that you surround both with double quotes!
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ## How to Submit
 

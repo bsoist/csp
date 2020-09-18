@@ -310,7 +310,7 @@ Then visit the URL that `submit50` outputs to see where you rank!
 
 **Important Note: Submitting to the Big Board is not the same thing as submitting the problem set itself. To submit the problem set, complete the How to Submit instructions in the next section.**
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ## How to Submit
 

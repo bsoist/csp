@@ -150,7 +150,7 @@ SPOILERTAG "Hints" %}
 
 * Recall that, when dividing values of type `int` in C, the result will also be an `int`, with any remainder (i.e., digits after the decimal point) discarded. Put another way, the result will be "truncated." You might want to cast your one or more values to `float` before performing division when calculating `L` and `S`!
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ## Walkthrough
 

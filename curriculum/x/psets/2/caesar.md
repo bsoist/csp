@@ -61,7 +61,7 @@ SPOILERTAG "Why?" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=9K4FsAHB-C8 %}
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 Notice that the case of the original message has been preserved. Lowercase letters remain lowercase, and uppercase letters remain uppercase.
 
@@ -122,7 +122,7 @@ There's more than one way to do this, so here's just one!
 
 It's okay to edit your own after seeing this pseudocode here, but don't simply copy/paste ours into your own!
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ### Counting Command-Line Arguments
 
@@ -156,7 +156,7 @@ SPOILERTAG "Hints" %}
 * Recall that `argc` and `argv` give you information about what was provided at the command line.
 * Recall that the name of the program itself (here, `./caesar`) is in `argv[0]`.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ### Accessing the Key
 
@@ -184,7 +184,7 @@ SPOILERTAG "Hints" %}
 * Recall that computer scientists like counting starting from 0.
 * Recall that we can access individual elements of an array, such as `argv` using square brackets, for example: `argv[0]`.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ### Validating the Key
 
@@ -214,7 +214,7 @@ SPOILERTAG "Hints" %}
 * Recall that with `printf` we can print an integer using `%i` as the placeholder.
 * Recall that the `atoi` function converts a string that looks like a number into that number.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ### Peeking Underneath the Hood
 
@@ -233,7 +233,7 @@ SPOILERTAG "Hints" %}
 * Try to iterate over every character in the plaintext and literally add 1 to it, then print it.
 * If `c` is a variable of type `char` in C, what happens when you call `printf("%c", c + 1)`?
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ### Your Turn
 
@@ -248,7 +248,7 @@ SPOILERTAG "Hints" %}
 * Recall that the ASCII value of `A` is 65. The ASCII value of `a`, meanwhile, is 97.
 * If you're not seeing any output at all when you call `printf`, odds are it's because you're printing characters outside of the valid ASCII range from 0 to 127. Try printing characters as numbers (using `%i` instead of `%c`) at first to see what values you're printing, and make sure you're only ever trying to print valid characters!
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ## Walkthrough
 

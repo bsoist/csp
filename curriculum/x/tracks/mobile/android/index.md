@@ -8,7 +8,7 @@ VIDEOTAG https://www.youtube.com/watch?v=acqZaszVZH4 %}
 
 * We'll learn to write mobile apps for Android with a new language, Java, and build three apps: one that loads data and displays it; one that applies filters to images; one that lets you take notes and save them.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 SPOILERTAG "Lesson 1" %}
 
@@ -33,7 +33,7 @@ VIDEOTAG https://www.youtube.com/watch?v=oi4U6_-yrCs %}
 * [39:00] To print everything, we can iterate over the map, and use the `Log` class in Android Studio to print out a log. We'll press the play button on the top right, and the device shows the default "Hello, world". But in Android Studio, on the bottom right we can click Logcat, inside which we can see our logs.
 * [43:00] We'll add getter methods to our `Track` class to return its fields, so they can be private to the class and so other code can't change them directly. Our getter might also have other logic.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 SPOILERTAG "Lesson 2" %}
 
@@ -59,7 +59,7 @@ VIDEOTAG https://www.youtube.com/watch?v=gTy13ioTddg %}
 * [47:45] In our `PokemonActivity` view, we'll set the values we get from an Intent onto those views. We can call `getIntent().getStringExtra()`, built into `AppCompatActivity`, to get the variables passed into our view. We'll need to pass along data in our adapter in the `onBindViewHolder` method, with `setTag` on the view to set the current `Pokemon` object to our view holder. And we'll add an event listener, `setOnClickListener`, to get our `Pokemon` back from the tag and create an Intent we can pass to the next view with `startActivity.`
 * [55:25] We can make our view nicer in the layout XML file with some more attributes like padding, built-in animations, and centered text. And like `printf` in C, `String.format` in Java can take in a format string to give our number a certain number of digits.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 SPOILERTAG "Lesson 3" %}
 
@@ -87,7 +87,7 @@ VIDEOTAG https://www.youtube.com/watch?v=OJQ8Cse6-Ss %}
 * [24:40] We'll use the `url` on the Pokemon data we got back to make another request when we want details about a particular Pokemon. We'll look at the view, and add two more `TextView`s to display the types of the Pokemon. In the Activity class for the Pokemon details view, we'll make another request, and parse the object in the response for the `types` array. Then, we can set the values of the all the `TextView`s based on the data.
 * [33:30] The `PokemonActivity` class will need the `url` from our adapter, so our click listener can pass that in with the `Intent` object. And our activity also needs to call our new `load` function, and actually make the request.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ## Problems
 
@@ -107,7 +107,7 @@ VIDEOTAG https://www.youtube.com/watch?v=pmmKvPlPIDs %}
 * [20:40] We'll add a button to our view for applying a filter, and create methods in our activity by following the documentation. We'll use the example of loading an image into the `Glide` library, applying a transformation, and loading it into the `ImageView`.
 * [25:05] We'll add two more in the same way, and factor out the common code, and just pass in different transformations depending on which filter we want to apply. We also have to be careful with importing the right classes from the right packages. Now we can apply different filters to our images.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ## Problems
 
@@ -140,7 +140,7 @@ VIDEOTAG https://www.youtube.com/watch?v=N9xIO_bQFm4 %}
 * [46:30] When we build and run our app, we see a crash, and the log tells us that our current note is `null` in the adapter, and it turns out that we have to check for it after the view has been loaded, in the click event handler, not in the constructor.
 * [47:55] Finally, we'll clean up the layout by adding padding and other aesthetics.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 SPOILERTAG "Conclusion" %}
 
@@ -148,7 +148,7 @@ VIDEOTAG https://www.youtube.com/watch?v=3WmSmNTs70U %}
 
 * The Android documentation has lots of topics, so do use it to build even more interesting apps!
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ## Problems
 

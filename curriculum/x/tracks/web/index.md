@@ -8,7 +8,7 @@ VIDEOTAG https://www.youtube.com/watch?v=BB7xPefB8og %}
 
 * In this track, we'll write programs that can run on the internet. We'll first learn about the basics of the internet and how it works, and then dive into the languages of the internet, from HTML and CSS to JavaScript to frameworks in Python and SQL that can turn a webpage into an application.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 SPOILERTAG "HTTP" %}
 
@@ -35,7 +35,7 @@ VIDEOTAG https://www.youtube.com/watch?v=iSFEjQRulf0 %}
 * [11:40] Other common status codes include 404, for a page not found, and 500 for an internal server error, where the server itself had an error trying to respond.
 * [13:05] We can open Google Chrome, and open the Developer Tools panel. In the Network tab, we can load a site, and see lots of requests. At the very top, we can see the original request for `google.com`, and we'll see the Request Headers that we sent, and the Response Headers we got back. In fact, the first response we got back was `HTTP/1.1 301 Moved Permanently`, to `http://www.google.com`, since by convention URLs for websites start with `www`. Next, we get redirected to `https://www.google.com`, with the more secure, encrypted version of HTTP. In this response, we finally get a `200 OK` code and some content to load the page. Later, we'll be writing our own server programs that return these codes and content in response to requests from browsers.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 SPOILERTAG "HTML" %}
 
@@ -51,7 +51,7 @@ VIDEOTAG https://www.youtube.com/watch?v=78wdlyzrKOA %}
 * [22:55] We'll add a `<form>` element with some `<input>` elements where we can get some information from the user. Finally, we can redirect ourself to Google's search page for whatever we typed in, by using `https://www.google.com/search`. We noticed that `https://www.google.com/search?q=cats` takes us to a search page for cats, and the `?` indicates some HTTP GET parameters, where here we have a `q`, or query, parameter, with the value `cats`. So our form can have an `action` that submits our text input with `name="q"`, to `https://www.google.com/search`.
 * [29:35] There are so many more HTML elements. We can likely find an HTML tag that lets us add a particular feature, just by searching Google for relevant documentation.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 SPOILERTAG "CSS" %}
 
@@ -68,7 +68,7 @@ VIDEOTAG https://www.youtube.com/watch?v=g7nZFp2zSJ4 %}
 * [27:40] We can add padding, or spacing, within each table data cell. And we can select the first row by adding a class like `header`, or use a special table header cell element `<th>` that we can select precisely.
 * [31:05] It turns out that there are lots of CSS libraries, written by other people, that will include styles for common elements that can quickly apply a theme or aesthetic to our HTML. Bootstrap is one such popular library, and its documentation will include a `<link>` element we can add, such that our page will use Boostrap's CSS files. The documentation will also show us various components we can use, and classes we can use to style them easily. A `<div>` element in HTML is like a generic container or section, so we'll see that commonly used for elements that don't have a more semantic HTML tag.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 SPOILERTAG "JavaScript" %}
 
@@ -92,7 +92,7 @@ VIDEOTAG https://www.youtube.com/watch?v=WzfPjOYmjxg %}
 * [44:45] Finally, we can ask the browser to give the user's location to our JavaScript code, with `navigator.geolocation.getCurrentPosition`. The argument we pass in is a callback function, or a function that will be called by the browser when the `getCurrentPosition` finishes running. Inside our function, we'll just write the coordinates we get to the page.
 * [47:05] With JavaScript, we can read and write to the DOM, and take advantage of even more features that browsers provide.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 SPOILERTAG "Homepage" %}
 
@@ -104,7 +104,7 @@ VIDEOTAG https://www.youtube.com/watch?v=sEVlPyywlfc %}
 * Finally, after we've written the content for our pages and styled them, we'll use JavaScript to make our page interactive somehow, through alerts, buttons, dropdowns, forms, intervals, or even more.
 * Be as creative as you'd like!
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ## Shorts
 
@@ -159,7 +159,7 @@ VIDEOTAG https://www.youtube.com/watch?v=GhB6Q7KC-SM %}
 * [48:00] We can also make sure that the task name is not empty, by adding some JavaScript code that only enables the submit button if the input field's value is not empty. Otherwise, we disable the submit button. We do this by adding an event handler to listen to the `onkeyup` event for our `task` input, which is triggered by the browser every time the user presses a key and releases it.
 * [52:40] But our task list goes away when we stop and start our web server, since we initialize our `todos` variable to an empty list each time. Next, we'll use a database with SQL to store and modify data.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 SPOILERTAG "Databases" %}
 
@@ -177,7 +177,7 @@ VIDEOTAG https://www.youtube.com/watch?v=zdH1PnWxSpA %}
 * [23:05] We'll try out our application, and everything seems to be working as we expect. To improve the design of our server's code, we'll factor out some common template code into `layout.html`, and create an `apology.html` page where we'll tell the user an error message if something in their form is blank.
 * [28:40] Now we can write Flask applications to read and store data in a database, saving our data efficiently for the long term.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 SPOILERTAG "Finance" %}
 
@@ -202,7 +202,7 @@ VIDEOTAG https://www.youtube.com/watch?v=kAvCTffbH04 %}
 * [25:25] Finally, we might need another table (in our database) to support our `history` page, and display the data for each user's transactions in a table (in our template).
 * [26:25] And we'll need to add a personal touch, whether that's allowing users to change their password, add cash, or additional features.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 SPOILERTAG "Conclusion" %}
 
@@ -210,7 +210,7 @@ VIDEOTAG https://www.youtube.com/watch?v=I-e5Jzq0yA8 %}
 
 * In this track, we learned about how computers communicate over an internet, structured web pages with HTML and styled them with CSS, and added some interactivity with JavaScript. Then we learned how to write a web server application with Flask, that can dynamically generate web pages and use a database to read and write data.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
  
 ## Shorts
 

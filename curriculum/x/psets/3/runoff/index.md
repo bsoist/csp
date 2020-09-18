@@ -114,7 +114,7 @@ SPOILERTAG "Hints" %}
 * Recall that `candidate_count` stores the number of candidates in the election.
 * Recall that you can use <a href="https://man.cs50.io/3/strcmp">`strcmp`</a> to compare two strings.
 * Recall that `preferences[i][j]` stores the index of the candidate who is the `j`th ranked preference for the `i`th voter.
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ### `tabulate`
 
@@ -128,7 +128,7 @@ SPOILERTAG "Hints" %}
 * Recall that for a voter `i`, their top choice candidate is represented by `preferences[i][0]`, their second choice candidate by `preferences[i][1]`, etc.
 * Recall that the `candidate` `struct` has a field called `eliminated`, which will be `true` if the candidate has been eliminated from the election.
 * Recall that the `candidate` `struct` has a field called `votes`, which you'll likely want to update for each voter's preferred candidate.
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ### `print_winner`
 
@@ -139,7 +139,7 @@ Complete the `print_winner` function.
 
 SPOILERTAG "Hints" %}
 * Recall that `voter_count` stores the number of voters in the election. Given that, how would you express the number of votes needed to win the election?
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ### `find_min`
 
@@ -149,7 +149,7 @@ Complete the `find_min` function.
 
 SPOILERTAG "Hints" %}
 * You'll likely want to loop through the candidates to find the one who is both still in the election and has the fewest number of votes. What information should you keep track of as you loop through the candidates?
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ### `is_tie`
 
@@ -160,7 +160,7 @@ Complete the `is_tie` function.
 
 SPOILERTAG "Hints" %}
 * Recall that a tie happens if every candidate still in the election has the same number of votes. Note, too, that the `is_tie` function takes an argument `min`, which is the smallest number of votes any candidate currently has. How might you use that information to determine if the election is a tie (or, conversely, not a tie)?
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ### `eliminate`
 

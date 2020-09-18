@@ -8,7 +8,7 @@ VIDEOTAG https://www.youtube.com/watch?v=fovkicji8KQ %}
 
 * In this track, we'll be covering how to build apps for Apple's iOS platform, using the programming language Swift. We'll learn by example from three apps, one that reads data from the internet using an API, one that implements image filters, and one that lets you take notes on your phone.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 SPOILERTAG "Lesson 1" %}
 
@@ -43,7 +43,7 @@ VIDEOTAG https://www.youtube.com/watch?v=7IaM0ZN1i7Q %}
 * We create an array of student names, and a dictionary where the keys are the names of the students (strings) and the values are tracks.
 * Then, we iterate through our student array, pick a random track, and store it in our dictionary. Finally, we iterate over our dictionary and print out each student and their assignment.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 SPOILERTAG "Lesson 2" %}
 
@@ -75,7 +75,7 @@ VIDEOTAG https://www.youtube.com/watch?v=SSjrnG4v90U %}
 * We'll override `prepare(for segue)` and use the `if let destination = segue.destination as? PokemonViewController` syntax to make sure that the view we're going to is a `PokemonViewController`. Then, we can get the right Pokemon for the row, and set it on the view directly.
 * [47:30] We can run our app and see the views as we expect now, and to format the number of the Pokemon we can use `String(format: "#%03d", pokemon.number)`.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 SPOILERTAG "Lesson 3" %}
 
@@ -125,7 +125,7 @@ VIDEOTAG https://www.youtube.com/watch?v=DfFQ9nManXo %}
 * [28:23] Let's use the API in our second view, for each individual Pokemon. We can explore the API to see that a lot of information is returned. It turns out that one field, `types`, is an array with one or more `type` objects. We'll create a struct to represent this data as a whole, `PokemonData`, and add the fields we want to decode, with `PokemonTypeEntry` and `PokemonType` structs as needed.
 * [32:20] Now we can make a second API call in our `PokemonViewController`, changing the URL based on the Pokemon passed in, decoding the data, and setting the values of the labels in the view. We also need to be careful to clear placeholder data in our labels, since we might not have values to set them to each time.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ## Problems
 
@@ -151,7 +151,7 @@ VIDEOTAG https://www.youtube.com/watch?v=fr3s3H6TxRA %}
 * [22:30] We can save the original image so the filter doesn't keep getting reapplied, and be careful to add a guard to make sure it exists before we try applying a filter.
 * [24:20] We'll add a few more buttons for other filters, and create and connect `IBAction`s for them too. Since we're now repeating some of this code, we'll factor the common lines out into a helper method. Now, all three of our filters work.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ## Problems
 
@@ -185,7 +185,7 @@ VIDEOTAG https://www.youtube.com/watch?v=1l3u_a1TTmc %}
 * [43:40] In our table view controller, we'll use `prepare(for segue...` to pass a selected `Note` to our note view controller. We'll create an outlet for the text view (to display the contents for the note) and save the note automatically when the user leaves the view, by overriding `viewWillDisappear`. We'll also need to reload the data in our table view after we come back to it, so we'll override `viewWillAppear` in it.
 * [48:20] We don't see our note being updated in the app after we change it, so we look at our note view controller. It turns out, that even though we save the `Note` correctly, we're not updating that based on the text view. So we'll set the struct's `contents` to the text in the text view.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 SPOILERTAG "Conclusion" %}
 
@@ -193,7 +193,7 @@ VIDEOTAG https://www.youtube.com/watch?v=YUGMyzpm5lI %}
 
 * Apple's iOS developer documentation will have lots of topics and examples that we can use to build apps on top of what we've learned so far.
 
-{% endspoiler %}
+ENDSPOILERTAG %}
 
 ## Problems
 
