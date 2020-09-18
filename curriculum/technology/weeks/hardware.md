@@ -1,6 +1,10 @@
+---
+youtubeId: WRB6P2vMAao
+---
+
 # Hardware
 
-VIDEOTAG https://video.cs50.io/6mbFO0ZLMW8?screen=WRB6P2vMAao %}
+{% include youtubePlayer.html id=page.youtubeId %}
 
 - Lecture
     * [Notes](../../notes/hardware/)
@@ -21,9 +25,12 @@ VIDEOTAG https://video.cs50.io/6mbFO0ZLMW8?screen=WRB6P2vMAao %}
     * [How Computers Work](../../references/how_computers_work.pdf)
     * [Memory](../../references/memory.pdf)
     * [Transistors and Logic](../../references/transistors_and_logic.pdf)
-* [Assignment](../../assignments/hardware/)
-+ Past Problems
++ Assignment
     * [Around the House](https://docs.cs50.net/2019/ap/problems/house/house.html)
+<!--
++ Past Problems
     * [Tech Spot](https://docs.cs50.net/2019/ap/problems/tech/tech.html)
     * [Everyday Algorithms](https://docs.cs50.net/2019/ap/problems/algorithms/algorithms.html)
     * [Me, myself, and UI](https://docs.cs50.net/2019/ap/problems/ui/ui.html)
+
+-->
