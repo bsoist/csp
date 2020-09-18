@@ -26,7 +26,7 @@ Keep in mind that "1-bit color" connotes two colors, black and white.
 
 Consider the video below.
 
-{% video https://www.youtube.com/watch?v=WwnI0RS6J5A %}
+https://www.youtube.com/watch?v=WwnI0RS6J5A
 
 * Why does making an image bigger not make it clearer?
 
