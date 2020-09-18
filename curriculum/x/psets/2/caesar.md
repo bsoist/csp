@@ -57,7 +57,7 @@ plaintext:  be sure to drink your Ovaltine
 ciphertext: or fher gb qevax lbhe Binygvar
 ```
 
-{% spoiler "Why?" %}
+SPOILERTAG "Why?" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=9K4FsAHB-C8 %}
 
@@ -106,7 +106,7 @@ How to begin? Let's approach this problem one step at a time.
 
 First, write some pseudocode that implements this program, even if not (yet!) sure how to write it in code. There's no one right way to write pseudocode, but short English sentences suffice. Recall how we wrote pseudocode for [finding Mike Smith](https://cdn.cs50.net/2018/fall/lectures/0/lecture0.pdf). Odds are your pseudocode will use (or imply using!) one or more functions, conditions, Boolean expressions, loops, and/or variables.
 
-{% spoiler %}
+SPOILERTAG %}
 
 There's more than one way to do this, so here's just one!
 
@@ -149,7 +149,7 @@ $ ./caesar 1 2 3
 Usage: ./caesar key
 ```
 
-{% spoiler "Hints" %}
+SPOILERTAG "Hints" %}
 
 * Recall that you can compile your program with `make`.
 * Recall that you can print with `printf`.
@@ -176,7 +176,7 @@ Success
 20
 ```
 
-{% spoiler "Hints" %}
+SPOILERTAG "Hints" %}
 
 * Recall that `argc` and `argv` give you information about what was provided at the command line.
 * Recall that `argv` is an array of strings.
@@ -203,7 +203,7 @@ $ ./caesar 20x
 Usage: ./caesar key
 ```
 
-{% spoiler "Hints" %}
+SPOILERTAG "Hints" %}
 
 * Recall that `argv` is an array of strings.
 * Recall that a string, meanwhile, is just an array of `char`s.
@@ -228,7 +228,7 @@ plaintext:  hello
 ciphertext: ifmmp
 ```
 
-{% spoiler "Hints" %}
+SPOILERTAG "Hints" %}
 
 * Try to iterate over every character in the plaintext and literally add 1 to it, then print it.
 * If `c` is a variable of type `char` in C, what happens when you call `printf("%c", c + 1)`?
@@ -239,7 +239,7 @@ ciphertext: ifmmp
 
 Now it's time to tie everything together! Instead of shifting the characters by 1, modify `caesar.c` to instead shift them by the actual key value. And be sure to preserve case! Uppercase letters should stay uppercase, lowercase letters should stay lowercase, and characters that aren't alphabetical should remain unchanged.
 
-{% spoiler "Hints" %}
+SPOILERTAG "Hints" %}
 
 * Best to use the modulo (i.e., remainder) operator, `%`, to handle wraparound from Z to A! But how?
 * Things get weird if we try to wrap `Z` or `z` by 1 using the technique in the previous section.

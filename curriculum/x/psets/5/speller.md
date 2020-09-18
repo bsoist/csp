@@ -301,7 +301,7 @@ $ ~cs50/2019/fall/pset5/speller texts/lalaland.txt
 And if you'd like to put your code to the test against classmates' code (just for fun), execute the command below to challenge the Big Board before or after you submit.
 
 
-{% spoiler "Submit to Big Board" %}
+SPOILERTAG "Submit to Big Board" %}
 ```
 $ submit50 cs50/problems/2020/x/challenges/speller
 ```

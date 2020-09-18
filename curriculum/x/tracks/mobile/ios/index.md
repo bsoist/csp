@@ -2,7 +2,7 @@
 
 ## Lectures
 
-{% spoiler "Introduction" %}
+SPOILERTAG "Introduction" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=fovkicji8KQ %}
 
@@ -10,7 +10,7 @@ VIDEOTAG https://www.youtube.com/watch?v=fovkicji8KQ %}
 
 {% endspoiler %}
 
-{% spoiler "Lesson 1" %}
+SPOILERTAG "Lesson 1" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=7IaM0ZN1i7Q %}
 
@@ -45,7 +45,7 @@ VIDEOTAG https://www.youtube.com/watch?v=7IaM0ZN1i7Q %}
 
 {% endspoiler %}
 
-{% spoiler "Lesson 2" %}
+SPOILERTAG "Lesson 2" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=SSjrnG4v90U %}
 
@@ -77,7 +77,7 @@ VIDEOTAG https://www.youtube.com/watch?v=SSjrnG4v90U %}
 
 {% endspoiler %}
 
-{% spoiler "Lesson 3" %}
+SPOILERTAG "Lesson 3" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=DfFQ9nManXo %}
 
@@ -133,7 +133,7 @@ VIDEOTAG https://www.youtube.com/watch?v=DfFQ9nManXo %}
 
 ## Lectures
 
-{% spoiler "Lesson 4" %}
+SPOILERTAG "Lesson 4" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=fr3s3H6TxRA %}
 
@@ -159,7 +159,7 @@ VIDEOTAG https://www.youtube.com/watch?v=fr3s3H6TxRA %}
 
 ## Lectures
 
-{% spoiler "Lesson 5" %}
+SPOILERTAG "Lesson 5" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=1l3u_a1TTmc %}
 
@@ -187,7 +187,7 @@ VIDEOTAG https://www.youtube.com/watch?v=1l3u_a1TTmc %}
 
 {% endspoiler %}
 
-{% spoiler "Conclusion" %}
+SPOILERTAG "Conclusion" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=YUGMyzpm5lI %}
 

@@ -2,7 +2,7 @@
 
 ## Lectures
 
-{% spoiler "Introduction" %}
+SPOILERTAG "Introduction" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=BB7xPefB8og %}
 
@@ -10,7 +10,7 @@ VIDEOTAG https://www.youtube.com/watch?v=BB7xPefB8og %}
 
 {% endspoiler %}
 
-{% spoiler "HTTP" %}
+SPOILERTAG "HTTP" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=iSFEjQRulf0 %}
 
@@ -37,7 +37,7 @@ VIDEOTAG https://www.youtube.com/watch?v=iSFEjQRulf0 %}
 
 {% endspoiler %}
 
-{% spoiler "HTML" %}
+SPOILERTAG "HTML" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=78wdlyzrKOA %}
 
@@ -53,7 +53,7 @@ VIDEOTAG https://www.youtube.com/watch?v=78wdlyzrKOA %}
 
 {% endspoiler %}
 
-{% spoiler "CSS" %}
+SPOILERTAG "CSS" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=g7nZFp2zSJ4 %}
 
@@ -70,7 +70,7 @@ VIDEOTAG https://www.youtube.com/watch?v=g7nZFp2zSJ4 %}
 
 {% endspoiler %}
 
-{% spoiler "JavaScript" %}
+SPOILERTAG "JavaScript" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=WzfPjOYmjxg %}
 
@@ -94,7 +94,7 @@ VIDEOTAG https://www.youtube.com/watch?v=WzfPjOYmjxg %}
 
 {% endspoiler %}
 
-{% spoiler "Homepage" %}
+SPOILERTAG "Homepage" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=sEVlPyywlfc %}
 
@@ -138,7 +138,7 @@ VIDEOTAG https://www.youtube.com/watch?v=sEVlPyywlfc %}
 
 ## Lectures
 
-{% spoiler "Flask" %}
+SPOILERTAG "Flask" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=GhB6Q7KC-SM %}
 
@@ -161,7 +161,7 @@ VIDEOTAG https://www.youtube.com/watch?v=GhB6Q7KC-SM %}
 
 {% endspoiler %}
 
-{% spoiler "Databases" %}
+SPOILERTAG "Databases" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=zdH1PnWxSpA %}
 
@@ -179,7 +179,7 @@ VIDEOTAG https://www.youtube.com/watch?v=zdH1PnWxSpA %}
 
 {% endspoiler %}
 
-{% spoiler "Finance" %}
+SPOILERTAG "Finance" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=kAvCTffbH04 %}
 
@@ -204,7 +204,7 @@ VIDEOTAG https://www.youtube.com/watch?v=kAvCTffbH04 %}
 
 {% endspoiler %}
 
-{% spoiler "Conclusion" %}
+SPOILERTAG "Conclusion" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=I-e5Jzq0yA8 %}
 

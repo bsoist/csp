@@ -95,7 +95,7 @@ Add a new file called `pseudocode.txt` inside of your `mario` directory.
 
 Write in `pseudocode.txt` some pseudocode that implements this program, even if not (yet!) sure how to write it in code. There's no one right way to write pseudocode, but short English sentences suffice. Recall how we wrote pseudocode for [finding Mike Smith](https://docs.google.com/presentation/d/17wRd8ksO6QkUq906SUgm17AqcI-Jan42jkY-EmufxnE/edit?usp=sharing). Odds are your pseudocode will use (or imply using!) one or more functions, conditions, Boolean expressions, loops, and/or variables.
 
-{% spoiler %}
+SPOILERTAG %}
 
 There's more than one way to do this, so here's just one!
 
@@ -124,7 +124,7 @@ Height: 4
 Stored: 4
 ```
 
-{% spoiler "Hints" %}
+SPOILERTAG "Hints" %}
 
 * Recall that you can compile your program with `make`.
 * Recall that you can print an `int` with `printf` using `%i`.
@@ -155,7 +155,7 @@ So let's build a left-aligned pyramid first and then, once that's working, right
 
 Modify `mario.c` at right such that it no longer simply prints the user's input but instead prints a left-aligned pyramid of that height.
 
-{% spoiler "Hints" %}
+SPOILERTAG "Hints" %}
 
 * Keep in mind that a hash is just a character like any other, so you can print it with `printf`.
 * Just as Scratch has a [Repeat](https://docs.google.com/presentation/d/17wRd8ksO6QkUq906SUgm17AqcI-Jan42jkY-EmufxnE/edit?usp=sharing) block, so does C have a [`for`](https://docs.google.com/presentation/d/191XW0DHWlW6WmAhYuFUYnZKUlDx0N4u4Fp81AeW-uNs/edit?usp=sharing) loop, via which you can iterate some number times. Perhaps on each iteration, *i*, you could print that many hashes?
@@ -191,7 +191,7 @@ Let's now right-align that pyramid by pushing its hashes to the right by prefixi
 
 Modify `mario.c` in such a way that it does exactly that!
 
-{% spoiler "Hint" %}
+SPOILERTAG "Hint" %}
 
 Notice how the number of dots needed on each line is the "opposite" of the number of that line's hashes. For a pyramid of height 8, like the above, the first line has but 1 hash and thus 7 dots. The bottom line, meanwhile, has 8 hashes and thus 0 dots. Via what formula (or arithmetic, really) could you print that many dots?
 
@@ -226,7 +226,7 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 mario.c
 ```
 
-{% spoiler "Hint" %}
+SPOILERTAG "Hint" %}
 
 A space is just a press of your space bar, just as a period is just a press of its key! Just remember that `printf` requires that you surround both with double quotes!
 

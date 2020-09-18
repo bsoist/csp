@@ -1,6 +1,6 @@
 # Games
 
-{% spoiler "Introduction" %}
+SPOILERTAG "Introduction" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=yuAxsEuxbIQ %}
 
@@ -14,7 +14,7 @@ VIDEOTAG https://www.youtube.com/watch?v=yuAxsEuxbIQ %}
 
 ### Lectures 
 
-{% spoiler "Pong" %}
+SPOILERTAG "Pong" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=TAh4h4xIonk %}
 
@@ -27,7 +27,7 @@ VIDEOTAG https://www.youtube.com/watch?v=TAh4h4xIonk %}
 
 {% endspoiler %}
 
-{% spoiler "Pong 0" %}
+SPOILERTAG "Pong 0" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=7IYX6mLqybc %}
 
@@ -38,7 +38,7 @@ VIDEOTAG https://www.youtube.com/watch?v=7IYX6mLqybc %}
 
 {% endspoiler %}
 
-{% spoiler "Pong 1" %}
+SPOILERTAG "Pong 1" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=EWXVsg72yxU %}
 
@@ -51,7 +51,7 @@ VIDEOTAG https://www.youtube.com/watch?v=EWXVsg72yxU %}
 
 {% endspoiler %}
 
-{% spoiler "Pong 2" %}
+SPOILERTAG "Pong 2" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=Eil3ocTtThA %}
 
@@ -64,7 +64,7 @@ VIDEOTAG https://www.youtube.com/watch?v=Eil3ocTtThA %}
 
 {% endspoiler %}
 
-{% spoiler "Pong 3" %}
+SPOILERTAG "Pong 3" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=320PDHOCsoc %}
 
@@ -75,7 +75,7 @@ VIDEOTAG https://www.youtube.com/watch?v=320PDHOCsoc %}
 
 {% endspoiler %}
 
-{% spoiler "Pong 4" %}
+SPOILERTAG "Pong 4" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=Yz9OD8qGzbQ %}
 
@@ -86,7 +86,7 @@ VIDEOTAG https://www.youtube.com/watch?v=Yz9OD8qGzbQ %}
 
 {% endspoiler %}
 
-{% spoiler "Pong 5" %}
+SPOILERTAG "Pong 5" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=qnIwZs189EE %}
 
@@ -98,7 +98,7 @@ VIDEOTAG https://www.youtube.com/watch?v=qnIwZs189EE %}
 
 {% endspoiler %}
 
-{% spoiler "Pong 6" %}
+SPOILERTAG "Pong 6" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=wPQvfoQ640o %}
 
@@ -106,7 +106,7 @@ VIDEOTAG https://www.youtube.com/watch?v=wPQvfoQ640o %}
 
 {% endspoiler %}
 
-{% spoiler "Pong 7" %}
+SPOILERTAG "Pong 7" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=UGcMIaOteMo %}
 
@@ -116,7 +116,7 @@ VIDEOTAG https://www.youtube.com/watch?v=UGcMIaOteMo %}
 
 {% endspoiler %}
 
-{% spoiler "Pong 8" %}
+SPOILERTAG "Pong 8" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=w9CfF3-wk6E %}
 
@@ -124,7 +124,7 @@ VIDEOTAG https://www.youtube.com/watch?v=w9CfF3-wk6E %}
 
 {% endspoiler %}
 
-{% spoiler "Pong 9" %}
+SPOILERTAG "Pong 9" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=D3cuyD7E38g %}
 
@@ -135,7 +135,7 @@ VIDEOTAG https://www.youtube.com/watch?v=D3cuyD7E38g %}
 
 {% endspoiler %}
 
-{% spoiler "Pong 10" %}
+SPOILERTAG "Pong 10" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=ueIIdusB5hA %}
 
@@ -145,7 +145,7 @@ VIDEOTAG https://www.youtube.com/watch?v=ueIIdusB5hA %}
 
 {% endspoiler %}
 
-{% spoiler "Pong 11" %}
+SPOILERTAG "Pong 11" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=9j4W33aWbrg %}
 
@@ -156,7 +156,7 @@ VIDEOTAG https://www.youtube.com/watch?v=9j4W33aWbrg %}
 
 {% endspoiler %}
 
-{% spoiler "Pong 12" %}
+SPOILERTAG "Pong 12" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=dCMVaSA-m0A %}
 
@@ -173,7 +173,7 @@ VIDEOTAG https://www.youtube.com/watch?v=dCMVaSA-m0A %}
 
 ### Lectures
 
-{% spoiler "Mario" %}
+SPOILERTAG "Mario" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=7ZrUATvYEFI %}
 
@@ -181,7 +181,7 @@ VIDEOTAG https://www.youtube.com/watch?v=7ZrUATvYEFI %}
 
 {% endspoiler %}
 
-{% spoiler "Mario 0" %}
+SPOILERTAG "Mario 0" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=7HqdFFcgJqI %}
 
@@ -194,7 +194,7 @@ VIDEOTAG https://www.youtube.com/watch?v=7HqdFFcgJqI %}
 
 {% endspoiler %}
 
-{% spoiler "Mario 1" %}
+SPOILERTAG "Mario 1" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=lyVXstwKgPU %}
 
@@ -203,7 +203,7 @@ VIDEOTAG https://www.youtube.com/watch?v=lyVXstwKgPU %}
 
 {% endspoiler %}
 
-{% spoiler "Mario 2" %}
+SPOILERTAG "Mario 2" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=deSOo69kzyE %}
 
@@ -212,7 +212,7 @@ VIDEOTAG https://www.youtube.com/watch?v=deSOo69kzyE %}
 
 {% endspoiler %}
 
-{% spoiler "Mario 3" %}
+SPOILERTAG "Mario 3" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=ps6hFEInen4 %}
 
@@ -221,7 +221,7 @@ VIDEOTAG https://www.youtube.com/watch?v=ps6hFEInen4 %}
 
 {% endspoiler %}
 
-{% spoiler "Mario 4" %}
+SPOILERTAG "Mario 4" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=9kZaYC2roNQ %}
 
@@ -230,7 +230,7 @@ VIDEOTAG https://www.youtube.com/watch?v=9kZaYC2roNQ %}
 
 {% endspoiler %}
 
-{% spoiler "Mario 5" %}
+SPOILERTAG "Mario 5" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=kQXZdVb7pus %}
 
@@ -239,7 +239,7 @@ VIDEOTAG https://www.youtube.com/watch?v=kQXZdVb7pus %}
 
 {% endspoiler %}
 
-{% spoiler "Mario 6" %}
+SPOILERTAG "Mario 6" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=KmiWQhStvNI %}
 
@@ -252,7 +252,7 @@ VIDEOTAG https://www.youtube.com/watch?v=KmiWQhStvNI %}
 
 {% endspoiler %}
 
-{% spoiler "Mario 7" %}
+SPOILERTAG "Mario 7" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=pVH4ST2jmOU %}
 
@@ -262,7 +262,7 @@ VIDEOTAG https://www.youtube.com/watch?v=pVH4ST2jmOU %}
 
 {% endspoiler %}
 
-{% spoiler "Mario 8" %}
+SPOILERTAG "Mario 8" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=vrYvHo68jY0 %}
 
@@ -271,7 +271,7 @@ VIDEOTAG https://www.youtube.com/watch?v=vrYvHo68jY0 %}
 
 {% endspoiler %}
 
-{% spoiler "Mario 9" %}
+SPOILERTAG "Mario 9" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=78fAOQhSDd4 %}
 
@@ -281,7 +281,7 @@ VIDEOTAG https://www.youtube.com/watch?v=78fAOQhSDd4 %}
 
 {% endspoiler %}
 
-{% spoiler "Mario 10" %}
+SPOILERTAG "Mario 10" %}
 
 VIDEOTAG https://www.youtube.com/watch?v=CNlYIhzcEJ8 %}
 
