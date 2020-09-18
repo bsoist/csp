@@ -1,3 +1,7 @@
+---
+youtubeId: WwnI0RS6J5A
+---
+
 # Multimedia
 
 * Why might a song in MP3 format sound much better than a song in MIDI format?
@@ -24,9 +28,9 @@ Keep in mind that "1-bit color" connotes two colors, black and white.
 
 * If an image supports "24-bit color," (roughly) how many colors does it support?
 
-Consider the video below PLEASE
+Consider the video below AGAIN
 
-{% include youtubePlayer.html id=WwnI0RS6J5A %}
+{% include youtubePlayer.html id=page.youtubeId %}
 
 * Why does making an image bigger not make it clearer?
 
