@@ -156,8 +156,6 @@ If the resulting index number is 16 or higher (equivalent to or greater than a s
 
 VIDEOTAG https://www.youtube.com/watch?v=nif3h2ggrOU %}
 
-{% alert warning %} Note that while the walkthrough illustrates that words may be separated by more than one space, you may assume, per the specifications above, that no sentences will contain more than one space in a row. {% endalert %}
-
 ## How to Test Your Code
 
 Try running your program on the following texts.

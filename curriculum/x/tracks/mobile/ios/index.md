@@ -1,11 +1,5 @@
 # iOS
 
-{% alert warning %}
-
-iOS development requires that you have (access to) a Mac running a recent version of macOS.
-
-{% endalert %}
-
 ## Lectures
 
 {% spoiler "Introduction" %}

@@ -1,11 +1,5 @@
 # Cash
 
-{% alert warning %}
-
-If you already started to work on Problem Set 1 in CS50 Lab, you may [continue working on it](https://lab.cs50.io/cs50/labs/2020/x/cash/) there. If you're just now starting to work in this problem, be sure to use CS50 IDE instead by following the instructions below!
-
-{% endalert %}
-
 ## Greedy Algorithms
 
 <!-- http://mypieceofthe31415927.blogspot.com/2014/04/whats-wrong-with-these-us-coins.html -->

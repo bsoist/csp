@@ -1,11 +1,5 @@
 # Hello
 
-{% alert warning %}
-
-If you already started to work on Problem Set 1 in CS50 Lab, you may [continue working on it](https://lab.cs50.io/cs50/labs/2020/x/hello/) there. If you're just now starting to work in this problem, be sure to use CS50 IDE instead by following the instructions below!
-
-{% endalert %}
-
 ## Getting Started
 
 CS50 IDE is a web-based "integrated development environment" that allows you to program "in the cloud," without installing any software locally. Indeed, CS50 IDE provides you with your very own "workspace" (i.e., storage space) in which you can save your own files and folders (aka directories).

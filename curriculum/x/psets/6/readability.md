@@ -17,10 +17,6 @@ Grade 3
 * Your program should print as output `"Grade X"` where `X` is the grade level computed by the Coleman-Liau formula, rounded to the nearest integer.
 * If the resulting index number is 16 or higher (equivalent to or greater than a senior undergraduate reading level), your program should output `"Grade 16+"` instead of giving the exact index number. If the index number is less than 1, your program should output `"Before Grade 1"`.
 
-{% alert warning %}
-Note that the specification here is only a summary of the requirements, so if you didn't do Readability in C, or if you are still unsure, we'd recommend that you review the [C specification and walkthrough](/psets/2/readability) for clarification.
-{% endalert %}
-
 ## Usage
 
 Your program should behave per the example below.

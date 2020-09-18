@@ -1,11 +1,5 @@
 # Mario
 
-{% alert warning %}
-
-If you already started to work on Problem Set 1 in CS50 Lab, you may [continue working on it](https://lab.cs50.io/cs50/labs/2020/x/mario/more/) there. If you're just now starting to work in this problem, be sure to use CS50 IDE instead by following the instructions below!
-
-{% endalert %}
-
 ## World 1-1
 
 Toward the beginning of World 1-1 in Nintendo's Super Mario Brothers, Mario must hop over adjacent pyramids of blocks, per the below.
