@@ -1,6 +1,6 @@
 # Programming
 
-{% video https://video.cs50.io/qDbsiVWA2Ag?screen=hHeaG521qXk %}
+VIDEOTAG https://video.cs50.io/qDbsiVWA2Ag?screen=hHeaG521qXk %}
 
 - Lecture
     * [Notes](../../notes/programming/)

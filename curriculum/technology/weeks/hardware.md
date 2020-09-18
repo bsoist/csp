@@ -1,6 +1,6 @@
 # Hardware
 
-{% video https://video.cs50.io/6mbFO0ZLMW8?screen=WRB6P2vMAao %}
+VIDEOTAG https://video.cs50.io/6mbFO0ZLMW8?screen=WRB6P2vMAao %}
 
 - Lecture
     * [Notes](../../notes/hardware/)

@@ -1,6 +1,6 @@
 # Multimedia
 
-{% video https://video.cs50.io/kccUxGDsMAQ?screen=d9eb5UAlvWc %}
+VIDEOTAG https://video.cs50.io/kccUxGDsMAQ?screen=d9eb5UAlvWc %}
 
 - Lecture
     * [Notes](../../notes/multimedia/)

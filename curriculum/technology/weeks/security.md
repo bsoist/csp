@@ -1,6 +1,6 @@
 # Security
 
-{% video https://video.cs50.io/QQmFyybzon0?screen=zfrtobJbovM %}
+VIDEOTAG https://video.cs50.io/QQmFyybzon0?screen=zfrtobJbovM %}
 
 - Lecture
     * [Notes](../../notes/security/)

@@ -1,6 +1,6 @@
 # Internet
 
-{% video https://video.cs50.io/n_KghQP86Sw?screen=CBDtYHnW3gI %}
+VIDEOTAG https://video.cs50.io/n_KghQP86Sw?screen=CBDtYHnW3gI %}
 
 - Lecture
     * [Notes](../../notes/internet/)

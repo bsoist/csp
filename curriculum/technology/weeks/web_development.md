@@ -1,6 +1,6 @@
 # Web Development
 
-{% video https://video.cs50.io/U6hkOAnFJxM?screen=m67oi7tINzQ %}
+VIDEOTAG https://video.cs50.io/U6hkOAnFJxM?screen=m67oi7tINzQ %}
 
 - Lecture
     * [Notes](../../notes/web_development/)
