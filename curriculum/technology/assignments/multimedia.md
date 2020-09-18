@@ -24,7 +24,7 @@ Keep in mind that "1-bit color" connotes two colors, black and white.
 
 * If an image supports "24-bit color," (roughly) how many colors does it support?
 
-Consider the video below.
+Consider the video below PLEASE
 
 {% include youtubePlayer.html id=WwnI0RS6J5A %}
 
