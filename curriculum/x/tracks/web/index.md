@@ -4,7 +4,7 @@
 
 {% spoiler "Introduction" %}
 
-{% video https://www.youtube.com/watch?v=BB7xPefB8og %}
+VIDEOTAG https://www.youtube.com/watch?v=BB7xPefB8og %}
 
 * In this track, we'll write programs that can run on the internet. We'll first learn about the basics of the internet and how it works, and then dive into the languages of the internet, from HTML and CSS to JavaScript to frameworks in Python and SQL that can turn a webpage into an application.
 
@@ -12,7 +12,7 @@
 
 {% spoiler "HTTP" %}
 
-{% video https://www.youtube.com/watch?v=iSFEjQRulf0 %}
+VIDEOTAG https://www.youtube.com/watch?v=iSFEjQRulf0 %}
 
 * Computers talk to each other across the network by sending and receiving messages. At the most basic level, there are standard protocols, or rules to follow, for sending and receiving messages. In the context of the internet, the standard protocol is TCP/IP, Transmission Control Protocol and Internet Protocol. We can think of this at a high-level as sending a letter in the mail, with an address for the recipient and the address of the sender. On the internet, computers have IP addresses, usually in the format `#.#.#.#`, so our digital envelope might include `1.2.3.4` for the address of the computer we want to message, and our own address `5.6.7.8`, so that we can get a response.
 * [2:16] With four numbers of one byte each, an IP address is 32 bits, which only allows us to count up to about 4 billion. It turns out that we now have more devices than 32 bits will support, and so in addition to IPv4, the protocol with 32-bit addresses, we also have IPv6, a protocol with 128-bit addresses.
@@ -39,7 +39,7 @@
 
 {% spoiler "HTML" %}
 
-{% video https://www.youtube.com/watch?v=78wdlyzrKOA %}
+VIDEOTAG https://www.youtube.com/watch?v=78wdlyzrKOA %}
 
 * Now that our computers can communicate over the internet, we can take a closer look at the actual data we get back. In Chrome, we can go to View > Developer > View Source, to see the HTML, Hypertext Markup Language, that makes up the text-based content of a webpage.
 * [1:30] We'll look at a simple HTML page, where we first declare to the browser of the version and format of the page. Then, we have a tag, `<html>`, which starts the HTML content. Generally, HTML is made up of lots of nested tags that map to a tree structure, with opening tags and closing tags that determine the structure of the page. Next we have the `<head>` tag, which includes metadata, data about the page, such as the `<title>` tag inside that defines what the title of the webpage will be, as displayed in the tab of the browser. After, we have the `<body>` tag, which contains the visible content displayed by the browser.
@@ -55,7 +55,7 @@
 
 {% spoiler "CSS" %}
 
-{% video https://www.youtube.com/watch?v=g7nZFp2zSJ4 %}
+VIDEOTAG https://www.youtube.com/watch?v=g7nZFp2zSJ4 %}
 
 * To style webpages, we'll use another language, CSS, Cascading Style Sheets.
 * [0:40] First, in our HTML, we'll need to add a `style` attribute to a tag, and set the value to something like `style="color: blue;"`. The key-value pairs in the style will change how the browser displays the element. In fact, we can add a style to the `<body>`, and all the elements inside the body will inherit the style unless they specifically have a different style.
@@ -72,7 +72,7 @@
 
 {% spoiler "JavaScript" %}
 
-{% video https://www.youtube.com/watch?v=WzfPjOYmjxg %}
+VIDEOTAG https://www.youtube.com/watch?v=WzfPjOYmjxg %}
 
 * To build a more interactive website, we'll need a programming language that will allow us to run code on the browser that changes how it behaves with our webpage, beyond just the content and style. The language that we'll use is JavaScript, a language that browsers can interpret and run, with syntax similar to that of C.
 * [0:35] We take a look at syntax for declaring and changing variables, conditions, loops, and functions.
@@ -96,7 +96,7 @@
 
 {% spoiler "Homepage" %}
 
-{% video https://www.youtube.com/watch?v=sEVlPyywlfc %}
+VIDEOTAG https://www.youtube.com/watch?v=sEVlPyywlfc %}
 
 * Our first assignment will be to create a homepage of our choice using HTML, CSS, and JavaScript.
 * We'll create four different pages in HTML, each linked to one another somehow. Recall that we can use the `<a>` tag, with the link to another file in our IDE.
@@ -140,7 +140,7 @@
 
 {% spoiler "Flask" %}
 
-{% video https://www.youtube.com/watch?v=GhB6Q7KC-SM %}
+VIDEOTAG https://www.youtube.com/watch?v=GhB6Q7KC-SM %}
 
 * So far, we've learned how to write webpages that are saved as a file and returned by an HTTP server. But we can also have web servers, or applications, that generate content dynamically before returning it as a response.
 * [1:00] We'll use a framework in Python called Flask, which allows us to write a web server with many features. We'll create a new folder in our IDE, called `hello/`, and create a new file called `application.py`. By reading the documentation and experimenting, we can write our first Flask application which returns something for the `/` route. And in our terminal, we can `cd` into our folder and run `flask run`, which will find our `application.py` file and run it. We'll open the URL, and see our returned string.
@@ -163,7 +163,7 @@
 
 {% spoiler "Databases" %}
 
-{% video https://www.youtube.com/watch?v=zdH1PnWxSpA %}
+VIDEOTAG https://www.youtube.com/watch?v=zdH1PnWxSpA %}
 
 * So far, we've learned how to write a server that can respond with webpages that are the same for every user. But there are websites where we can log in, and it will show us information specific to us.
 * Recall that cookies are small files that websites ask our browser to store on our computer, with some kind of identifier that our browser shows the website the next time we go there, so the website knows who we are. This allows our server to have sessions, or data for users' interactions with a website, specific to each of them.
@@ -181,7 +181,7 @@
 
 {% spoiler "Finance" %}
 
-{% video https://www.youtube.com/watch?v=kAvCTffbH04 %}
+VIDEOTAG https://www.youtube.com/watch?v=kAvCTffbH04 %}
 
 * We'll take the concepts we've seen to create CS50 Finance, a virtual stock trading website with an account for users to register for, the ability to get quotes for shares of stocks and to virtually buy or sell them. We'll also have a history page for each account to see what we've done in the past.
 * [2:45] We look at the distribution code for CS50 Finance, or the code that we'll all start off with. We have an `application.py` file that our Flask app will run, with various configuration options, a connection to a database file `finance.db`, and routes for . This follows the MVC, Model-View-Controller, pattern, which generally separates the concerns of data and how that's stored (our database), the views that display some amount of data (our templates), and controllers that control the logic of what is displayed when (our `application.py` routes).
@@ -206,7 +206,7 @@
 
 {% spoiler "Conclusion" %}
 
-{% video https://www.youtube.com/watch?v=I-e5Jzq0yA8 %}
+VIDEOTAG https://www.youtube.com/watch?v=I-e5Jzq0yA8 %}
 
 * In this track, we learned about how computers communicate over an internet, structured web pages with HTML and styled them with CSS, and added some interactivity with JavaScript. Then we learned how to write a web server application with Flask, that can dynamically generate web pages and use a database to read and write data.
 

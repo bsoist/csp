@@ -2,7 +2,7 @@
 
 {% spoiler "Introduction" %}
 
-{% video https://www.youtube.com/watch?v=yuAxsEuxbIQ %}
+VIDEOTAG https://www.youtube.com/watch?v=yuAxsEuxbIQ %}
 
 * We'll be writing interactive, graphical games, and in particular implementing versions of Pong and Mario.
 * In Pong, there will be two paddles and a ball bouncing between them, and we'll be drawing each component and the text. We'll be using the Lua language and the LÖVE framework, and learn about game state, object-oriented programming, and collision detection.
@@ -16,7 +16,7 @@
 
 {% spoiler "Pong" %}
 
-{% video https://www.youtube.com/watch?v=TAh4h4xIonk %}
+VIDEOTAG https://www.youtube.com/watch?v=TAh4h4xIonk %}
 
 * We'll be recreating Pong, one of the first video games ever made, where we have a ball bouncing between two paddles.
 * [1:00] We'll be using a programming language called Lua, similar to JavaScript, focusing on "tables", which are like objects in JavaScript or dictionaries in Python, with key-value pairs.
@@ -29,7 +29,7 @@
 
 {% spoiler "Pong 0" %}
 
-{% video https://www.youtube.com/watch?v=7IYX6mLqybc %}
+VIDEOTAG https://www.youtube.com/watch?v=7IYX6mLqybc %}
 
 * We'll start by looking at how a game works. The game loop represents the basic form of what our program will be doing: first, processing input from the player; second, updating the game's state, perhaps multiple times depending on how much time has passed; third, rendering the graphics for the player; and finally, repeating.
 * [2:40] LÖVE will expect us to implement some functions, `load()`, which will set up the initial state of our game; `update(dt)`, which will be called to update the game state; and `draw()`, to update the screen.
@@ -40,7 +40,7 @@
 
 {% spoiler "Pong 1" %}
 
-{% video https://www.youtube.com/watch?v=EWXVsg72yxU %}
+VIDEOTAG https://www.youtube.com/watch?v=EWXVsg72yxU %}
 
 * Our text size was small, so we'll actually decrease the resolution and stretch it out in our window, which will also give us a retro, pixelated look.
 * We'll need a third-party library, [push](https://github.com/Ulydev/push), which will give us a `push.lua` file we can include in our project.
@@ -53,7 +53,7 @@
 
 {% spoiler "Pong 2" %}
 
-{% video https://www.youtube.com/watch?v=Eil3ocTtThA %}
+VIDEOTAG https://www.youtube.com/watch?v=Eil3ocTtThA %}
 
 * We'll add rectangles to represent two paddles and a ball, as well as use a new font for our title.
 * [0:50] We'll need some more functions from the `love.graphics` library: `newFont`, `setFont`, and `clear`, which clears the entire screen with some color.
@@ -66,7 +66,7 @@
 
 {% spoiler "Pong 3" %}
 
-{% video https://www.youtube.com/watch?v=320PDHOCsoc %}
+VIDEOTAG https://www.youtube.com/watch?v=320PDHOCsoc %}
 
 * We'll add the score, and check if a key is being held with `isDown`, to move our paddles.
 * [2:00] We'll set our font size to be bigger when we're drawing the score, and track them in variables.
@@ -77,7 +77,7 @@
 
 {% spoiler "Pong 4" %}
 
-{% video https://www.youtube.com/watch?v=Yz9OD8qGzbQ %}
+VIDEOTAG https://www.youtube.com/watch?v=Yz9OD8qGzbQ %}
 
 * We'll also want to change the game state based on the position of the ball, and move it on the screen automatically.
 * [1:00] We'll need functions like `math.randomseed`, `os.time`, and `math.random`. By passing in a seed, or starting value, to a random number generator, we can get the same series of "random" numbers. Alternatively, we can pass in a unique value, like the current time in seconds, to make sure the sequence is (highly likely) unique. We'll also use `math.min` and `math.max` to get the smaller or larger of two numbers.
@@ -88,7 +88,7 @@
 
 {% spoiler "Pong 5" %}
 
-{% video https://www.youtube.com/watch?v=qnIwZs189EE %}
+VIDEOTAG https://www.youtube.com/watch?v=qnIwZs189EE %}
 
 * Now that our game is getting more complicated, we'll start refactoring our code so that it's better designed and compartamentalized.
 * Object-oriented programming centers on the concept of classes, where we have objects of a particular class that are like structs with a group of variables and functions, or methods, that acts on each object. In other words, a class is like a blueprint, from which we can create objects, or instances, each with their own state.
@@ -100,7 +100,7 @@
 
 {% spoiler "Pong 6" %}
 
-{% video https://www.youtube.com/watch?v=wPQvfoQ640o %}
+VIDEOTAG https://www.youtube.com/watch?v=wPQvfoQ640o %}
 
 * We'll add an FPS, or frames per second, counter to our window so we can get a sense of how our game is performing. We can use a built-in `getFPS()` function, and at the end of our main `render()` function we'll also call a `displayFPS()` function that writes the value from `getFPS()` to the screen.
 
@@ -108,7 +108,7 @@
 
 {% spoiler "Pong 7" %}
 
-{% video https://www.youtube.com/watch?v=UGcMIaOteMo %}
+VIDEOTAG https://www.youtube.com/watch?v=UGcMIaOteMo %}
 
 * Now we'll implement collision detection, where the ball can actually bounce from the paddle or the edges of the screen, instead of passing through them.
 * We'll use a simple system, "axis-aligned bounding boxes", which just means that everything in our world has a rectangular shape, and we can test for collision by just comparing the boundaries of the coordinates, as opposed to having to calculate curves or diagonals.
@@ -118,7 +118,7 @@
 
 {% spoiler "Pong 8" %}
 
-{% video https://www.youtube.com/watch?v=w9CfF3-wk6E %}
+VIDEOTAG https://www.youtube.com/watch?v=w9CfF3-wk6E %}
 
 * Now we can add a score to our game state, increment it if the ball reaches the left or right edges of the screen, and then reset the ball. We'll also clean up the game state so we can only go from the start state to the play state by pressing enter.
 
@@ -126,7 +126,7 @@
 
 {% spoiler "Pong 9" %}
 
-{% video https://www.youtube.com/watch?v=D3cuyD7E38g %}
+VIDEOTAG https://www.youtube.com/watch?v=D3cuyD7E38g %}
 
 * After the ball reaches the left or the right side of the screen, the other player scores. So on the next turn, we want the ball to start by going towards that opposing player, as though the player was serving the ball.
 * State machines are like a map of different states and the transitions between them. For example, key presses might take a character in a game from a standing state to a jumping state.
@@ -137,7 +137,7 @@
 
 {% spoiler "Pong 10" %}
 
-{% video https://www.youtube.com/watch?v=ueIIdusB5hA %}
+VIDEOTAG https://www.youtube.com/watch?v=ueIIdusB5hA %}
 
 * Now let's track the victory state, and reset the game entirely once a player has a certain number of points. We'll need to add another state to our game overall, and call it `victory`. We'll print a message when we get to that state, and check whether the score has reached some threshold every time a player scores.
 * [2:10] We'll make a new variable to store the winning player when we check the score, and then in our `draw()` function we can check whether we're in the `victory` state and print a message with the winning player's number.
@@ -147,7 +147,7 @@
 
 {% spoiler "Pong 11" %}
 
-{% video https://www.youtube.com/watch?v=9j4W33aWbrg %}
+VIDEOTAG https://www.youtube.com/watch?v=9j4W33aWbrg %}
 
 * To add sound, we'll use the `newSource()` function in the `love.audio` library, to open an audio file. We'll also use [bfxr](https://www.bfxr.net), a program that lets us generate sound effects.
 * [1:30] We'll save some `.wav` sound files from bfxr, and save them with names in our game project directory.
@@ -158,7 +158,7 @@
 
 {% spoiler "Pong 12" %}
 
-{% video https://www.youtube.com/watch?v=dCMVaSA-m0A %}
+VIDEOTAG https://www.youtube.com/watch?v=dCMVaSA-m0A %}
 
 * We'll add the ability to resize the window, and just call the `push:resize()` function when our main `resize()` function is called by the LÖVE framework.
 * Our assignment will be to add some AI, or computer player, to play as player 2.
@@ -175,7 +175,7 @@
 
 {% spoiler "Mario" %}
 
-{% video https://www.youtube.com/watch?v=7ZrUATvYEFI %}
+VIDEOTAG https://www.youtube.com/watch?v=7ZrUATvYEFI %}
 
 * We'll be building a game inspired by Mario, with a blue alien as our main character, a colorful world, and blocks we can see and interactive with.
 
@@ -183,7 +183,7 @@
 
 {% spoiler "Mario 0" %}
 
-{% video https://www.youtube.com/watch?v=7HqdFFcgJqI %}
+VIDEOTAG https://www.youtube.com/watch?v=7HqdFFcgJqI %}
 
 * Let's start by adding some tiles. We'll need a sprite sheet, which has 16x16 tiles laid out in a grid in one image. We'll split this in our game program.
 * We'll need a tile map, or a representation of what tiles to be rendered to the screen graphically. This might be stored in a file or generated programmatically. For example, we might have an array of numbers where each number stands for a particular type of tile.
@@ -196,7 +196,7 @@
 
 {% spoiler "Mario 1" %}
 
-{% video https://www.youtube.com/watch?v=lyVXstwKgPU %}
+VIDEOTAG https://www.youtube.com/watch?v=lyVXstwKgPU %}
 
 * We'll add some scrolling from left to right with a default velocity, and we'll need to simulate a camera with `love.graphics.translate`, which shifts the coordinate system for us.
 * In our Map class, we'll write an `:update()` function that our main update function will call, and inside it we'll just change the position of the camera at some speed, by storing and updating the coordinates of our camera. And we have to convert the offset to an integer so there aren't artifacts from decimal values.
@@ -205,7 +205,7 @@
 
 {% spoiler "Mario 2" %}
 
-{% video https://www.youtube.com/watch?v=deSOo69kzyE %}
+VIDEOTAG https://www.youtube.com/watch?v=deSOo69kzyE %}
 
 * We'll learn to control scrolling in our game with the keyboard, and we'll do this by add conditions for whether certain keys are being held down in our map's `:update()` function.
 * We'll also need to prevent the camera from going too far off the map, so we can use `math.max` or `math.min` with the right boundaries.
@@ -214,7 +214,7 @@
 
 {% spoiler "Mario 3" %}
 
-{% video https://www.youtube.com/watch?v=ps6hFEInen4 %}
+VIDEOTAG https://www.youtube.com/watch?v=ps6hFEInen4 %}
 
 * Now let's generate a map procedurally, or programmatically with the help of random values. We'll generate each column as we go from left to right, since our game scrolls from left to right.
 * [1:35] We'll go over the distribution code that's already been written, and in our Map class we'll have a function that generates each column, or horizontal offset on our map with random values. We need to generate blocks representing the floor, and in our assignment we'll extend this to build a pyramid.
@@ -223,7 +223,7 @@
 
 {% spoiler "Mario 4" %}
 
-{% video https://www.youtube.com/watch?v=9kZaYC2roNQ %}
+VIDEOTAG https://www.youtube.com/watch?v=9kZaYC2roNQ %}
 
 * Now we'll add an avatar of a blue alien which will be the character we can later control.
 * In our Map class, we'll need a Player class, so we'll create one and initalize it to some defaults. Our Player class will also open the spritesheet for itself, and render the standing sprite for now.
@@ -232,7 +232,7 @@
 
 {% spoiler "Mario 5" %}
 
-{% video https://www.youtube.com/watch?v=kQXZdVb7pus %}
+VIDEOTAG https://www.youtube.com/watch?v=kQXZdVb7pus %}
 
 * We'll add support to move our character with the keyboard, and have our camera track our character by positioning the camera so the character is always in the middle of the screen, unless the camera is already at the edge of the map.
 * In our Player class, we'll check for keyboard input, and move our character left and right. We aren't checking for any other tiles, so we'll be floating on the screen, but our camera follows our character as expected.
@@ -241,7 +241,7 @@
 
 {% spoiler "Mario 6" %}
 
-{% video https://www.youtube.com/watch?v=KmiWQhStvNI %}
+VIDEOTAG https://www.youtube.com/watch?v=KmiWQhStvNI %}
 
 * Now we'll add animations, where our character can face different directions. Our sprite sheet has a quad for each frame, and we can specify how many frames each quad is shown, giving us the illusion of an animation.
 * We'll also need to represent the character's state, where we know whether they are standing, moving, or jumping, and the transitions between them will have different animations.
@@ -254,7 +254,7 @@
 
 {% spoiler "Mario 7" %}
 
-{% video https://www.youtube.com/watch?v=pVH4ST2jmOU %}
+VIDEOTAG https://www.youtube.com/watch?v=pVH4ST2jmOU %}
 
 * We'll add another state, jumping, which will require us to model gravity by changing the y velocity of our character over time;.
 * [1:15] We'll create a JUMP_VELOCITY variable and GRAVITY variable as constants, and add `jumping` as a new state with its own behavior. From the idle and walking states, we'll check for whether the space key was pressed, and then change our state and animation if so. And in our `jumping` state, we'll also allow for horizontal movement by checking for the same keys for moving left and right. We'll need to stop falling once we're at our original vertical height, too.
@@ -264,7 +264,7 @@
 
 {% spoiler "Mario 8" %}
 
-{% video https://www.youtube.com/watch?v=vrYvHo68jY0 %}
+VIDEOTAG https://www.youtube.com/watch?v=vrYvHo68jY0 %}
 
 * We'll add collision checking by checking if the bounding box, or the coordinates of the rectangle around our character's sprite, overlaps with the bounding boxes of any block tiles. Since we can only hit a tile from below, we only need to check the top corners of our character.
 * We'll review the code that's been written, where we start by getting the tile at some location, and if there is a tile at the coordinates of the top left or right corners of our character as our player is jumping, we want to reset our vertical velocity and set the tiles to another value.
@@ -273,7 +273,7 @@
 
 {% spoiler "Mario 9" %}
 
-{% video https://www.youtube.com/watch?v=78fAOQhSDd4 %}
+VIDEOTAG https://www.youtube.com/watch?v=78fAOQhSDd4 %}
 
 * Now, we'll extend our collision detection to include the left, right, and bottoms of our character, so we can fall into gaps or stop at a mushroom column.
 * [1:15] Our update function will need to check for left and right collisions, and to do that we'll check if the tile we are touching is "collidable", or in a list of tiles that we can't walk through.
@@ -283,7 +283,7 @@
 
 {% spoiler "Mario 10" %}
 
-{% video https://www.youtube.com/watch?v=CNlYIhzcEJ8 %}
+VIDEOTAG https://www.youtube.com/watch?v=CNlYIhzcEJ8 %}
 
 * Like we did in Pong, we'll add some sound effects and music playing on a loop. We'll use `love.audio.newSource`, and we can use built-in functions to ensures our music is on a loop and plays when the game starts. We'll have a `sounds` table, and play them at the right moments in our Player's `:update()` function too.
 * In our assignment, we'll add a pyramid and flag to our map signifying the end of our level.

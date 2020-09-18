@@ -10,7 +10,7 @@ iOS development requires that you have (access to) a Mac running a recent versio
 
 {% spoiler "Introduction" %}
 
-{% video https://www.youtube.com/watch?v=fovkicji8KQ %}
+VIDEOTAG https://www.youtube.com/watch?v=fovkicji8KQ %}
 
 * In this track, we'll be covering how to build apps for Apple's iOS platform, using the programming language Swift. We'll learn by example from three apps, one that reads data from the internet using an API, one that implements image filters, and one that lets you take notes on your phone.
 
@@ -18,7 +18,7 @@ iOS development requires that you have (access to) a Mac running a recent versio
 
 {% spoiler "Lesson 1" %}
 
-{% video https://www.youtube.com/watch?v=7IaM0ZN1i7Q %}
+VIDEOTAG https://www.youtube.com/watch?v=7IaM0ZN1i7Q %}
 
 * Xcode is the IDE made by Apple that we'll use to write our apps, and it includes all the tools we'll need, though it is only available for macOS.
 * Newer iOS apps are generally written in a language called Swift, though some use an older language, Objective-C.
@@ -53,7 +53,7 @@ iOS development requires that you have (access to) a Mac running a recent versio
 
 {% spoiler "Lesson 2" %}
 
-{% video https://www.youtube.com/watch?v=SSjrnG4v90U %}
+VIDEOTAG https://www.youtube.com/watch?v=SSjrnG4v90U %}
 
 * To write our iOS app, we'll be using a framework called UIKit, made by Apple, with lots of functions to create UI, or user interface, elements on the screen, like tables, images, and buttons.
 * We'll follow the MVC pattern, or model-view-controller, where we have models, or code that handles storing our data; views that handle displaying data; and controller that contains our logic for bridging our model and our view. In iOS, they're called view controllers, and decide what gets shown when.
@@ -85,7 +85,7 @@ iOS development requires that you have (access to) a Mac running a recent versio
 
 {% spoiler "Lesson 3" %}
 
-{% video https://www.youtube.com/watch?v=DfFQ9nManXo %}
+VIDEOTAG https://www.youtube.com/watch?v=DfFQ9nManXo %}
 
 * We can use an API, application programming interface, to load data from the internet in our app. An API is like a set of code that someone else has written, designed for you to use too.
 * In this case, we'll be making requests to a website and getting data back in a format called JSON, JavaScript Object Notation.
@@ -141,7 +141,7 @@ iOS development requires that you have (access to) a Mac running a recent versio
 
 {% spoiler "Lesson 4" %}
 
-{% video https://www.youtube.com/watch?v=fr3s3H6TxRA %}
+VIDEOTAG https://www.youtube.com/watch?v=fr3s3H6TxRA %}
 
 * We'll make a different app this time, one that can apply filters to photos.
 * We'll create a new Single View App project in Xcode, and add some basic components to our main storyboard. We'll add:
@@ -167,7 +167,7 @@ iOS development requires that you have (access to) a Mac running a recent versio
 
 {% spoiler "Lesson 5" %}
 
-{% video https://www.youtube.com/watch?v=1l3u_a1TTmc %}
+VIDEOTAG https://www.youtube.com/watch?v=1l3u_a1TTmc %}
 
 * SQLite is a simple SQL database where our Swift code can write queries and save data.
 * We'll need queries like:
@@ -195,7 +195,7 @@ iOS development requires that you have (access to) a Mac running a recent versio
 
 {% spoiler "Conclusion" %}
 
-{% video https://www.youtube.com/watch?v=YUGMyzpm5lI %}
+VIDEOTAG https://www.youtube.com/watch?v=YUGMyzpm5lI %}
 
 * Apple's iOS developer documentation will have lots of topics and examples that we can use to build apps on top of what we've learned so far.
 

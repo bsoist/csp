@@ -66,7 +66,7 @@ In a file called `dna.py` in `~/pset6/dna/`, implement a program that identifies
 
 ## Walkthrough
 
-{% video https://www.youtube.com/watch?v=j84b_EgntcQ %}
+VIDEOTAG https://www.youtube.com/watch?v=j84b_EgntcQ %}
 
 ## Usage
 

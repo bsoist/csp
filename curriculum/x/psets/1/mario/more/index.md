@@ -94,7 +94,7 @@ Create a new file called `mario.c` inside your `mario` directory. Modify `mario.
 
 ### Walkthrough
 
-{% video https://www.youtube.com/watch?v=FzN9RAjYG_Q %}
+VIDEOTAG https://www.youtube.com/watch?v=FzN9RAjYG_Q %}
 
 ### How to Test Your Code
 

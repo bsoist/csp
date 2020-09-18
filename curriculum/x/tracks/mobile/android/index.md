@@ -4,7 +4,7 @@
 
 {% spoiler "Introduction" %}
 
-{% video https://www.youtube.com/watch?v=acqZaszVZH4 %}
+VIDEOTAG https://www.youtube.com/watch?v=acqZaszVZH4 %}
 
 * We'll learn to write mobile apps for Android with a new language, Java, and build three apps: one that loads data and displays it; one that applies filters to images; one that lets you take notes and save them.
 
@@ -12,7 +12,7 @@
 
 {% spoiler "Lesson 1" %}
 
-{% video https://www.youtube.com/watch?v=oi4U6_-yrCs %}
+VIDEOTAG https://www.youtube.com/watch?v=oi4U6_-yrCs %}
 
 * We'll use Android Studio, an IDE provided by Google to help us write Android apps. We'll download and open it, and start a new project. We'll select the Empty Activity template for our app, and use `JavaExample` for our app name. A convention for the package name is the domain name in reverse, plus the app name, like `edu.harvard.cs50.javaexample`. We'll use Java and support Android 5.0 or above, so most devices can use our app.
 * [2:20] Inside Android Studio we'll see a lot of files that have been generated for us. We'll want to first create an AVD, or Android Virtual Device, so we can run our app on our laptop instead of a separate device.
@@ -37,7 +37,7 @@
 
 {% spoiler "Lesson 2" %}
 
-{% video https://www.youtube.com/watch?v=gTy13ioTddg %}
+VIDEOTAG https://www.youtube.com/watch?v=gTy13ioTddg %}
 
 * Now we'll add UI to our Android app. The build system is called Gradle, which helps us by downloading libraries and compiling our code.
 * MVC, Model-View-Controller, is a general design pattern in which we separate our concerns, or types of code, into three categories. Models, like the Track class we created in lesson 1, stored our data. The view takes care of displaying the data when it gets it. And finally, the controller is the bridge between the model and the view, with logic deciding what data to pass to the view and when.
@@ -63,7 +63,7 @@
 
 {% spoiler "Lesson 3" %}
 
-{% video https://www.youtube.com/watch?v=OJQ8Cse6-Ss %}
+VIDEOTAG https://www.youtube.com/watch?v=OJQ8Cse6-Ss %}
 
 * Now we'll load data from the internet for our app.
 * We can use an API, application programming interface, to load data from the internet in our app. An API is like a set of code that someone else has written, designed for you to use too.
@@ -97,7 +97,7 @@
 
 {% spoiler "Lesson 4" %}
 
-{% video https://www.youtube.com/watch?v=pmmKvPlPIDs %}
+VIDEOTAG https://www.youtube.com/watch?v=pmmKvPlPIDs %}
 
 * We'll build another app now, one that allows us to apply filters to images. We'll create a new project with an Empty Activity in Android Studio, and start by adding more views in our `activity_main.xml` layout. Since we'll need to scroll, we'll change the parent layout to a `ScrollView`, and inside have a `LinearLayout` for our `ImageView` and a `Button`.
 * [4:40] In our activity, we'll add the functionality for our button to load an image and display it. We'll write a `choosePhoto` method, which will call the built-in Android image gallery for selecting a photo. We'll create an `Intent` and set the action and type. We'll add a `requestCode`, so we know how to handle the selected image in our app when the other activity finishes. Finally, we'll have our `Button` call the method when it's clicked.
@@ -117,7 +117,7 @@
 
 {% spoiler "Lesson 5" %}
 
-{% video https://www.youtube.com/watch?v=N9xIO_bQFm4 %}
+VIDEOTAG https://www.youtube.com/watch?v=N9xIO_bQFm4 %}
 
 * We'll build a note-taking app that can save data to the device.
 * We'll use SQLite, a simple database that saves data to a file but supports SQL queries.
@@ -144,7 +144,7 @@
 
 {% spoiler "Conclusion" %}
 
-{% video https://www.youtube.com/watch?v=3WmSmNTs70U %}
+VIDEOTAG https://www.youtube.com/watch?v=3WmSmNTs70U %}
 
 * The Android documentation has lots of topics, so do use it to build even more interesting apps!
 

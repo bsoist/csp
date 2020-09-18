@@ -165,7 +165,7 @@ And be sure to execute your program, testing it a few times with different input
 
 ### Walkthrough
 
-{% video https://www.youtube.com/watch?v=wSk1KSDUEYA %}
+VIDEOTAG https://www.youtube.com/watch?v=wSk1KSDUEYA %}
 
 ### Hints
 

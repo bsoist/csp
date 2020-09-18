@@ -54,7 +54,7 @@ Implement a program called `recover` that recovers JPEGs from a forensic image.
 
 ## Walkthrough
 
-{% video https://www.youtube.com/watch?v=ooL0r_8N9ms %}
+VIDEOTAG https://www.youtube.com/watch?v=ooL0r_8N9ms %}
 
 ## Usage
 

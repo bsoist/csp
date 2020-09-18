@@ -149,7 +149,7 @@ You should not modify anything else in `tideman.c` other than the implementation
 
 ## Walkthrough
 
-{% video https://www.youtube.com/watch?v=3Zge8KglOns %}
+VIDEOTAG https://www.youtube.com/watch?v=3Zge8KglOns %}
 
 ## Usage
 

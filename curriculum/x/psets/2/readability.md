@@ -154,7 +154,7 @@ If the resulting index number is 16 or higher (equivalent to or greater than a s
 
 ## Walkthrough
 
-{% video https://www.youtube.com/watch?v=nif3h2ggrOU %}
+VIDEOTAG https://www.youtube.com/watch?v=nif3h2ggrOU %}
 
 {% alert warning %} Note that while the walkthrough illustrates that words may be separated by more than one space, you may assume, per the specifications above, that no sentences will contain more than one space in a row. {% endalert %}
 

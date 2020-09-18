@@ -55,7 +55,7 @@ Change owed: 0.41
 
 ### Walkthrough
 
-{% video https://www.youtube.com/watch?v=Y3nWGvqt_Cg %}
+VIDEOTAG https://www.youtube.com/watch?v=Y3nWGvqt_Cg %}
 
 
 ### How to Test Your Code

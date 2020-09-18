@@ -208,7 +208,7 @@ Alright, ready to go?
 
 **Please note that there are 6 videos in this playlist.**
 
-{% video https://www.youtube.com/watch?v=_z57x5PGF4w&list=PLhQjrBD2T382T4b6jjwX_qbU23E_Unwcz %}
+VIDEOTAG https://www.youtube.com/watch?v=_z57x5PGF4w&list=PLhQjrBD2T382T4b6jjwX_qbU23E_Unwcz %}
 
 ## Hints
 

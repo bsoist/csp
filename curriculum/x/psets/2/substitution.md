@@ -74,7 +74,7 @@ Design and implement a program, `substitution`, that encrypts messages using a s
 
 ## Walkthrough
 
-{% video https://www.youtube.com/watch?v=cXAoZAsgxJ4 %}
+VIDEOTAG https://www.youtube.com/watch?v=cXAoZAsgxJ4 %}
 
 ## How to Test Your Code
 

@@ -171,7 +171,7 @@ Complete the `eliminate` function.
 
 ## Walkthrough
 
-{% video https://www.youtube.com/watch?v=-Vc5aGywKxo %}
+VIDEOTAG https://www.youtube.com/watch?v=-Vc5aGywKxo %}
 
 ## Usage
 

@@ -60,7 +60,7 @@ In `roster.py`, write a program that prints a list of students for a given house
 
 ## Walkthrough
 
-{% video https://www.youtube.com/watch?v=3w-EvTiw3p8 %}
+VIDEOTAG https://www.youtube.com/watch?v=3w-EvTiw3p8 %}
 
 ## Usage
 

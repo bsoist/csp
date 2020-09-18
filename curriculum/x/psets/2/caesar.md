@@ -59,7 +59,7 @@ ciphertext: or fher gb qevax lbhe Binygvar
 
 {% spoiler "Why?" %}
 
-{% video https://www.youtube.com/watch?v=9K4FsAHB-C8 %}
+VIDEOTAG https://www.youtube.com/watch?v=9K4FsAHB-C8 %}
 
 {% endspoiler %}
 
@@ -252,7 +252,7 @@ Now it's time to tie everything together! Instead of shifting the characters by 
 
 ## Walkthrough
 
-{% video https://www.youtube.com/watch?v=V2uusmv2wxI %}
+VIDEOTAG https://www.youtube.com/watch?v=V2uusmv2wxI %}
 
 ## How to Test Your Code
 

@@ -170,7 +170,7 @@ You should not modify any of the function signatures, nor should you modify any 
 
 ## Walkthrough
 
-{% video https://www.youtube.com/watch?v=K0v9byp9jd0&list=PLhQjrBD2T3837jmUt0ep7Tpmnxdv9NVut %}
+VIDEOTAG https://www.youtube.com/watch?v=K0v9byp9jd0&list=PLhQjrBD2T3837jmUt0ep7Tpmnxdv9NVut %}
 
 ## Usage
 

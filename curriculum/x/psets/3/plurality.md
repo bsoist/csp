@@ -95,7 +95,7 @@ Bob
 
 ## Walkthrough
 
-{% video https://www.youtube.com/watch?v=ftOapzDjEb8 %}
+VIDEOTAG https://www.youtube.com/watch?v=ftOapzDjEb8 %}
 
 ## Testing
 

@@ -80,7 +80,7 @@ If your program behaves incorrectly on some inputs (or doesn't compile at all), 
 
 ### Walkthrough
 
-{% video https://www.youtube.com/watch?v=dF7wNjsRBjI %}
+VIDEOTAG https://www.youtube.com/watch?v=dF7wNjsRBjI %}
 
 ### How to Test Your Code
 

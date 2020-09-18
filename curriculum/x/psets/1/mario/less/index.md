@@ -87,7 +87,7 @@ Height: 4
 
 How to begin? Let's approach this problem one step at a time.
 
-{% video https://www.youtube.com/watch?v=NAs4FIWkJ4s %}
+VIDEOTAG https://www.youtube.com/watch?v=NAs4FIWkJ4s %}
 
 ## Pseudocode
 
