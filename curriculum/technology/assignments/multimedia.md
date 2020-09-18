@@ -26,9 +26,7 @@ Keep in mind that "1-bit color" connotes two colors, black and white.
 
 Consider the video below.
 
-<div class="border embed-responsive embed-responsive-16by9" data-video="">
-    <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="embed-responsive-item" src="https://www.youtube.com/watch?v=WwnI0RS6J5A?modestbranding=1&amp;rel=0&amp;showinfo=0" scrolling="no"></iframe>
-</div>
+{% include youtubePlayer.html id=WwnI0RS6J5A %}
 
 * Why does making an image bigger not make it clearer?
 
