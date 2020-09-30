@@ -106,7 +106,7 @@ Write in `pseudocode.txt` some pseudocode that implements this program, even if 
 <li>If height is less than 1 or greater than 8 (or not an integer at all), go back one step</li>
 <li>Iterate from 1 through height:
 <ol>
-    <li>On iteration <b>i</b>, print <b>*</b> hashes and then a newline</li>
+    <li>On iteration <b>i</b>, print <b>i</b> hashes and then a newline</li>
 </ol>
 </li>
 </ol>
@@ -166,7 +166,7 @@ Modify `mario.c` at right such that it no longer simply prints the user's input 
 <details><summary>Hints</summary>
 <ul>
 <li>Keep in mind that a hash is just a character like any other, so you can print it with <code>printf</code>.</li>
-<li>Just as Scratch has a <a target="_blank" href="https://docs.google.com/presentation/d/17wRd8ksO6QkUq906SUgm17AqcI-Jan42jkY-EmufxnE/edit?usp=sharing">Repeat</a> block, so does C have a <a target="_blank" href="https://docs.google.com/presentation/d/191XW0DHWlW6WmAhYuFUYnZKUlDx0N4u4Fp81AeW-uNs/edit?usp=sharing"><code>for</code></a> loop, via which you can iterate some number times. Perhaps on each iteration, *i*, you could print that many hashes?</li>
+<li>Just as Scratch has a <a target="_blank" href="https://docs.google.com/presentation/d/17wRd8ksO6QkUq906SUgm17AqcI-Jan42jkY-EmufxnE/edit?usp=sharing">Repeat</a> block, so does C have a <a target="_blank" href="https://docs.google.com/presentation/d/191XW0DHWlW6WmAhYuFUYnZKUlDx0N4u4Fp81AeW-uNs/edit?usp=sharing"><code>for</code></a> loop, via which you can iterate some number times. Perhaps on each iteration, <b>i</b>, you could print that many hashes?</li>
 <li>You can actually "nest" loops, iterating with one variable (e.g., <code>i</code>) in the "outer" loop and another (e.g., <code>j</code>) in the "inner" loop. For instance, here's how you might print a square of height and width <code>n</code>, below. Of course, it's not a square that you want to print!
 
 <pre><code>
