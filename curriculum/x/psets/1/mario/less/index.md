@@ -1,3 +1,6 @@
+---
+youtubeId: NAs4FIWkJ4s
+---
 # Mario
 
 ## World 1-1
@@ -81,7 +84,7 @@ Height: 4
 
 How to begin? Let's approach this problem one step at a time.
 
-VIDEOTAG https://www.youtube.com/watch?v=NAs4FIWkJ4s %}
+{% include youtubePlayer.html id=page.youtubeId %}
 
 ## Pseudocode
 

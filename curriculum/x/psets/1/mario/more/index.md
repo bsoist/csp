@@ -1,3 +1,6 @@
+---
+youtubeId: FzN9RAjYG_Q
+---
 # Mario
 
 ## World 1-1
@@ -88,7 +91,7 @@ Create a new file called `mario.c` inside your `mario` directory. Modify `mario.
 
 ### Walkthrough
 
-VIDEOTAG https://www.youtube.com/watch?v=FzN9RAjYG_Q %}
+{% include youtubePlayer.html id=page.youtubeId %}
 
 ### How to Test Your Code
 

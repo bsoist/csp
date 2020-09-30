@@ -1,3 +1,6 @@
+---
+youtubeId: wSk1KSDUEYA
+---
 # Hello
 
 ## Getting Started
@@ -158,8 +161,6 @@ And be sure to execute your program, testing it a few times with different input
 ```
 
 ### Walkthrough
-
-VIDEOTAG https://www.youtube.com/watch?v=wSk1KSDUEYA %}
 
 ### Hints
 

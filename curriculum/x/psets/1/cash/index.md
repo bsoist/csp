@@ -1,3 +1,7 @@
+---
+youtubeId: Y3nWGvqt_Cg
+---
+
 # Cash
 
 ## Greedy Algorithms
@@ -49,7 +53,11 @@ Change owed: 0.41
 
 ### Walkthrough
 
-VIDEOTAG https://www.youtube.com/watch?v=Y3nWGvqt_Cg %}
+
+# Week 1
+
+{% include youtubePlayer.html id=page.youtubeId %}
+
 
 
 ### How to Test Your Code
