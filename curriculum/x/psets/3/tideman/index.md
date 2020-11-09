@@ -1,3 +1,7 @@
+---
+youtubeId: 3Zge8KglOns
+---
+
 # Tideman
 
 Implement a program that runs a Tideman election, per the below.
@@ -149,7 +153,7 @@ You should not modify anything else in `tideman.c` other than the implementation
 
 ## Walkthrough
 
-VIDEOTAG https://www.youtube.com/watch?v=3Zge8KglOns %}
+{% include youtubePlayer.html id=page.youtubeId %}
 
 ## Usage
 

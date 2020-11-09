@@ -1,3 +1,7 @@
+---
+youtubeId: ftOapzDjEb8
+---
+
 # Plurality
 
 Implement a program that runs a plurality election, per the below.
@@ -95,7 +99,7 @@ Bob
 
 ## Walkthrough
 
-VIDEOTAG https://www.youtube.com/watch?v=ftOapzDjEb8 %}
+{% include youtubePlayer.html id=page.youtubeId %}
 
 ## Testing
 

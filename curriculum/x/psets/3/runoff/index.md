@@ -1,3 +1,7 @@
+---
+youtubeId: -Vc5aGywKxo
+---
+
 # Runoff
 
 Implement a program that runs a runoff election, per the below.
@@ -171,7 +175,7 @@ Complete the `eliminate` function.
 
 ## Walkthrough
 
-VIDEOTAG https://www.youtube.com/watch?v=-Vc5aGywKxo %}
+{% include youtubePlayer.html id=page.youtubeId %}
 
 ## Usage
 
