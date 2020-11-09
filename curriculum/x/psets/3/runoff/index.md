@@ -114,11 +114,14 @@ Complete the `vote` function.
 * If the preference is successfully recorded, the function should return `true`; the function should return `false` otherwise (if, for instance, `name` is not the name of one of the candidates).
 * You may assume that no two candidates will have the same name.
 
-SPOILERTAG "Hints" %}
-* Recall that `candidate_count` stores the number of candidates in the election.
-* Recall that you can use <a href="https://man.cs50.io/3/strcmp">`strcmp`</a> to compare two strings.
-* Recall that `preferences[i][j]` stores the index of the candidate who is the `j`th ranked preference for the `i`th voter.
-ENDSPOILERTAG %}
+<details>
+    <summary>Hints</summary>
+<ul>
+<li>Recall that <code>candidate_count</code> stores the number of candidates in the election.</li>
+<li>Recall that you can use <a href="https://man.cs50.io/3/strcmp"><code>strcmp</code></a> to compare two strings.</li>
+<li>Recall that <code>preferences[i][j]</code> stores the index of the candidate who is the <code>j</code>th ranked preference for the <code>i</code>th voter.</li>
+</ul>
+</details>
 
 ### `tabulate`
 
@@ -127,12 +130,15 @@ Complete the `tabulate` function.
 * The function should update the number of `votes` each candidate has at this stage in the runoff.
 * Recall that at each stage in the runoff, every voter effectively votes for their top-preferred candidate who has not already been eliminated.
 
-SPOILERTAG "Hints" %}
-* Recall that `voter_count` stores the number of voters in the election.
-* Recall that for a voter `i`, their top choice candidate is represented by `preferences[i][0]`, their second choice candidate by `preferences[i][1]`, etc.
-* Recall that the `candidate` `struct` has a field called `eliminated`, which will be `true` if the candidate has been eliminated from the election.
-* Recall that the `candidate` `struct` has a field called `votes`, which you'll likely want to update for each voter's preferred candidate.
-ENDSPOILERTAG %}
+<details>
+    <summary>Hints</summary>
+    <ul>
+<li>Recall that <code>voter_count</code> stores the number of voters in the election.</li>
+<li>Recall that for a voter <code>i</code>, their top choice candidate is represented by <code>preferences[i][0]</code>, their second choice candidate by <code>preferences[i][1]</code>, etc.</li>
+<li>Recall that the <code>candidate</code> <code>struct</code> has a field called <code>eliminated</code>, which will be <code>true</code> if the candidate has been eliminated from the election.</li>
+<li>Recall that the <code>candidate</code> <code>struct</code> has a field called <code>votes</code>, which you'll likely want to update for each voter's preferred candidate.</li>
+    </ul>
+</details>
 
 ### `print_winner`
 
@@ -141,9 +147,10 @@ Complete the `print_winner` function.
 * If any candidate has more than half of the vote, their name should be printed to `stdout` and the function should return `true`.
 * If nobody has won the election yet, the function should return `false`.
 
-SPOILERTAG "Hints" %}
-* Recall that `voter_count` stores the number of voters in the election. Given that, how would you express the number of votes needed to win the election?
-ENDSPOILERTAG %}
+<details>
+    <summary>Hints</summary>
+<ul><li>Recall that <code>voter_count</code> stores the number of voters in the election. Given that, how would you express the number of votes needed to win the election?</li></ul>
+</details>
 
 ### `find_min`
 
@@ -151,9 +158,10 @@ Complete the `find_min` function.
 
 * The function should return the minimum vote total for any candidate who is still in the election.
 
-SPOILERTAG "Hints" %}
-* You'll likely want to loop through the candidates to find the one who is both still in the election and has the fewest number of votes. What information should you keep track of as you loop through the candidates?
-ENDSPOILERTAG %}
+<details>
+    <summary>Hints</summary>
+<ul><li>You'll likely want to loop through the candidates to find the one who is both still in the election and has the fewest number of votes. What information should you keep track of as you loop through the candidates?</li></ul>
+</details>
 
 ### `is_tie`
 
@@ -162,9 +170,10 @@ Complete the `is_tie` function.
 * The function takes an argument `min`, which will be the minimum number of votes that anyone in the election currently has.
 * The function should return `true` if every candidate remaining in the election has the same number of votes, and should return `false` otherwise.
 
-SPOILERTAG "Hints" %}
-* Recall that a tie happens if every candidate still in the election has the same number of votes. Note, too, that the `is_tie` function takes an argument `min`, which is the smallest number of votes any candidate currently has. How might you use that information to determine if the election is a tie (or, conversely, not a tie)?
-ENDSPOILERTAG %}
+<details>
+    <summary>Hints</summary>
+<ul><li>Recall that a tie happens if every candidate still in the election has the same number of votes. Note, too, that the <code>is_tie</code> function takes an argument <code>min</code>, which is the smallest number of votes any candidate currently has. How might you use that information to determine if the election is a tie (or, conversely, not a tie)?</li></ul>
+</details>
 
 ### `eliminate`
 
