@@ -1,0 +1,10 @@
+
+td {
+    height: 100px;
+    width: 100px;
+    min-height: 100px;
+    min-width: 100px;
+    text-align:center;
+    border:inset;
+    font-size:3em;
+}
