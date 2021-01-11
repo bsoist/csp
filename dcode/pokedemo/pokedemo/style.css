@@ -1,0 +1,25 @@
+#next {
+    float:right;
+}
+
+#previous {
+    float:left;
+}
+
+.hidden {
+    display:none;
+}
+
+#pokemon_list {
+    margin-top: 100px;
+    float:left;
+    width:10%;
+    border:solid;
+}
+
+#more_info {
+    margin-top: 100px;
+    border:solid;
+    float:right;
+    width:70%;
+}
