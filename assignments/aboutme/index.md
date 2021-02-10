@@ -3,13 +3,13 @@ For this assignment, you will create a simple one-page "About Me" webpage using 
 
 ## Step-by-Step Setup
 1. Login to your IDE at [ide.cs50.io](https://ide.cs50.io/)
-2. You should see something that looks like this...
+2. You should see something that looks like this...<br/>
     ![Your initial setup](step0.png "Your initial setup")
-1. Click the plus sign and choose "New File"
+1. Click the plus sign and choose "New File"<br/>
     ![Click + and then New File](step1.png "Click + and then New File")
-2. Click File and then Save
+2. Click File and then Save<br/>
     ![File->Save](step2.png "Click File and then Save")
-3. Type in the name `aboutme.html` (all lower, no spaces)
+3. Type in the name `aboutme.html` (all lower, no spaces)<br/>
     ![aboutme.html](step3.png "Type in aboutme.html")
 4. Click Save
 5. Copy the following HTML into that file
