@@ -13,6 +13,17 @@ For this assignment, you will create a simple one-page "About Me" webpage using 
     ![aboutme.html](step3.png "Type in aboutme.html")
 4. Click Save
 5. Copy the following HTML into that file
+   ```
+   <!DOCTYPE html>
+   <html>
+       <head>
+           <title></title>
+       </head> 
+       <body>
+           hello, world
+       </body>
+   </html>
+   ```
 6. Save the file
 7. In the terminal, type `http-server` and press enter
 8. Click the link provided
