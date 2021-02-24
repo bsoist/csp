@@ -1,3 +1,7 @@
+---
+youtubeId: 3w-EvTiw3p8
+---
+
 # Houses
 
 Implement a program to import student data into a database, and then produce class rosters.
@@ -60,7 +64,7 @@ In `roster.py`, write a program that prints a list of students for a given house
 
 ## Walkthrough
 
-VIDEOTAG https://www.youtube.com/watch?v=3w-EvTiw3p8 %}
+{% include youtubePlayer.html id=page.youtubeId %}
 
 ## Usage
 
