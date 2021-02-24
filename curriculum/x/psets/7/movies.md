@@ -1,3 +1,6 @@
+---
+youtubeId: v5_A3giDlQs
+---
 # Movies
 
 Write SQL queries to answer questions about a database of movies.
@@ -80,7 +83,7 @@ You're welcome to check your queries' results against [IMDb](https://www.imdb.co
 
 ## Walkthrough
 
-VIDEOTAG https://www.youtube.com/watch?v=v5_A3giDlQs %}
+{% include youtubePlayer.html id=page.youtubeId %}
 
 ## Usage
 
