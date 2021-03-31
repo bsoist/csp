@@ -7,4 +7,4 @@
 * References
     * [Artificial Intelligence and Machine Learning](../../x/references/artificial_intelligence_and_machine_learning.pdf)
     * [Models and Simulations](../../x/references/models_and_simulations.pdf)
-    * [Version Control and Documentation](../../x/references/version_control_and_collaboration.pdf)
+    * [Version Control and Collaboration](../../x/references/version_control_and_collaboration.pdf)
