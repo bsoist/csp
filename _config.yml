@@ -6,3 +6,6 @@ plugins:
 remote_theme: cs50/jekyll-theme-cs50
 
 title: CSP @ THS
+
+baseurl:
+  /csp
